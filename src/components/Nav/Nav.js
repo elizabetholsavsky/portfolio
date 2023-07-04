@@ -3,7 +3,7 @@ import './Nav.css'
 const Nav = () => {
   return (
     <nav className="navbar">
-      <a href="#home" className="name">
+      <a href="/" className="name">
         <h1 >Elizabeth Olsavsky</h1>
       </a>
       <ul className="nav-list">
