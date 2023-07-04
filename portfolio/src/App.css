@@ -2,4 +2,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.scroll-container {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y proximity;
+}
+
+section {
+    height: 100%;
+    scroll-snap-align: start;
 }
