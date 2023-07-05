@@ -5,14 +5,11 @@
     scroll-behavior: smooth;
 }
 
-body {
-    overflow-y: hidden;
-}
-
 .scroll-container {
-    height: 100vh;
+    height: 90vh;
+    width: 100%;
     overflow-y: scroll;
-    scroll-snap-type: y proximity;
+    scroll-snap-type: y mandatory;
 }
 
 section {
