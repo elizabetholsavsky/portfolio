@@ -13,12 +13,22 @@
 }
 
 @media(max-width:768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .name {
+        flex-grow: 1;
+        text-align: center;
+    }
+    
     .hamburger {
         display: flex;
-        justify-content: center;
-        align-items: center; 
+        align-items: center;
     }
-
+    
     .hamburger-container {
         display: block;
     }
