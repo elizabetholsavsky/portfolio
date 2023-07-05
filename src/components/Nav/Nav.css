@@ -10,7 +10,7 @@
     background-color: yellow;
 }
 
-.nav-list {
+.nav-menu {
     list-style: none;
     display: flex;
     align-items: center;
@@ -24,6 +24,9 @@
     padding: 5px;
 }
 
+.nav-link:hover {
+    color: red;
+}
 .active {
     font-weight: bold;
     color: red;

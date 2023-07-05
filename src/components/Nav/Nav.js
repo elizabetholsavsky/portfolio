@@ -1,15 +1,19 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Nav.css';
+import './Hamburger.css';
 
 const Nav = () => {
   const [activeSection, setActiveSection] = useState('home');
   const sectionRefs = useRef({});
+  const [menuActive, setMenuActive] = useState(false);
 
   const handleNavItemClick = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
     }
+
+    setMenuActive(false);
   };
 
   useEffect(() => {
@@ -70,8 +74,9 @@ const Nav = () => {
       <a href="/" className="name">
         <h1>Elizabeth Olsavsky</h1>
       </a>
-      <ul className="nav-list">
-        <li>
+
+      <ul className={`nav-menu ${menuActive ? 'active' : 'nav-menu'}`}>
+        <li className="nav-item">
           <a
             href="#about"
             className={`nav-link ${activeSection === 'about' ? 'active' : ''}`}
@@ -80,7 +85,7 @@ const Nav = () => {
           </a>
         </li>
 
-        <li>
+        <li className="nav-item">
           <a
             href="#projects"
             className={`nav-link ${
@@ -91,7 +96,7 @@ const Nav = () => {
           </a>
         </li>
 
-        <li>
+        <li className="nav-item">
           <a
             href="#resume"
             className={`nav-link ${activeSection === 'resume' ? 'active' : ''}`}
@@ -100,7 +105,7 @@ const Nav = () => {
           </a>
         </li>
 
-        <li>
+        <li className="nav-item">
           <a
             href="#contact"
             className={`nav-link ${
@@ -111,8 +116,17 @@ const Nav = () => {
           </a>
         </li>
       </ul>
+
+      <div className={`hamburger ${menuActive ? 'active' : ''}`} onClick={() => setMenuActive(!menuActive)}>
+        <div className='hamburger-container'>
+          <span className="hamburger-bar"></span>
+          <span className="hamburger-bar"></span>
+          <span className="hamburger-bar"></span>
+        </div>
+      </div>
+
     </nav>
   );
-};
+}
 
 export default Nav;
