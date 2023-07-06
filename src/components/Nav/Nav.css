@@ -3,6 +3,7 @@
 .navbar {
     background-color: var(--primary);
     height: 10vh;
+    min-height: 65px;
     width: 100%;
     position: sticky;
     top: 0;
