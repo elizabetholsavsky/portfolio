@@ -1,3 +1,5 @@
+@import '../../App.css';
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -9,10 +11,11 @@
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
-    background-color: black;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--text);
 }
 
-@media(max-width:768px) {
+@media(max-width:825px) {
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -47,19 +50,19 @@
     
     .nav-menu {
         position: fixed;
-        left: -100%;
+        right: -100%;
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: yellow;
+        background-color: var(--primary);
         width: 100vw;
         overflow-x: hidden;
         text-align: center;
-        transition: 0.3s;
+        /* transition: 0.3s; */
     }
 
     .nav-menu.active {
-        left: 0;
+        right: 0;
     } 
     
     .nav-item {

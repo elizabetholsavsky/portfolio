@@ -75,6 +75,14 @@ const Nav = () => {
             <h1>Elizabeth Olsavsky</h1>
         </a>
 
+        <div className={`hamburger ${menuActive ? 'active' : ''}`} onClick={() => setMenuActive(!menuActive)}>
+            <div className='hamburger-container'>
+            <span className="hamburger-bar"></span>
+            <span className="hamburger-bar"></span>
+            <span className="hamburger-bar"></span>
+            </div>
+        </div>
+
         <ul className={`nav-menu ${menuActive ? 'active' : 'nav-menu'}`}>
             <li className="nav-item">
             <a
@@ -116,14 +124,6 @@ const Nav = () => {
             </a>
             </li>
         </ul>
-
-        <div className={`hamburger ${menuActive ? 'active' : ''}`} onClick={() => setMenuActive(!menuActive)}>
-            <div className='hamburger-container'>
-            <span className="hamburger-bar"></span>
-            <span className="hamburger-bar"></span>
-            <span className="hamburger-bar"></span>
-            </div>
-        </div>
     </nav>
     );
 }

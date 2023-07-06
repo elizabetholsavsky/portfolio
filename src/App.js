@@ -11,7 +11,9 @@ import Contact from './components/Contact/Contact.js'
 function App() {
   return (
     <>
-    <Nav/>
+    <header>
+      <Nav/>
+    </header>
     <div className='scroll-container'>
       <Home/>
       <About/>
