@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Nav.css';
 import './Hamburger.css';
+import '../../App.css';
 
 const Nav = () => {
     const [activeSection, setActiveSection] = useState('home');
@@ -29,7 +30,7 @@ const Nav = () => {
         rootMargin: '-50% 0% -50% 0%', 
     });
 
-    const sections = ['home', 'about', 'projects', 'resume', 'contact'];
+    const sections = ['about', 'projects', 'resume', 'contact'];
     sections.forEach((sectionId) => {
         const section = document.getElementById(sectionId);
         if (section) {
@@ -71,7 +72,7 @@ const Nav = () => {
 
     return (
         <nav className="navbar">
-        <a href="/" className="name">
+        <a href="#about" className="name">
             <h1>Elizabeth Olsavsky</h1>
         </a>
 
