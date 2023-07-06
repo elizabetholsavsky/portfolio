@@ -17,10 +17,14 @@ header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0;
-    max-width: 1100px;
+    max-width: 900px;
 }
 
-.nav-menu {
+h1 {
+    font-size: 1.25rem;
+}
+
+.name, .nav-menu {
     list-style: none;
     display: flex;
     align-items: center;
@@ -44,4 +48,10 @@ header {
 .active {
     font-weight: bold;
     color: var(--active);
+}
+
+@media (max-width: 350px) {
+    h1, .nav-menu {
+        font-size: 1rem;
+    }
 }
