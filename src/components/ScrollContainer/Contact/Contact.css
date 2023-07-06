@@ -1,6 +1,5 @@
 .contact-section {
-    min-height: 85%;
-    max-height: fit-content;
+    min-height: 80%;
     scroll-snap-align: start;
     display: flex;
     align-items: center;
