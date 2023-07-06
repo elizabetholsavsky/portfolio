@@ -14,9 +14,18 @@
 }
 
 .profile-picture img {
-    height: 300px;
-    width: auto;
+    max-width: 300px;
+    min-width: 200px;
     border-radius: 50%;
     border: 10px solid var(--primary);
     margin: 20px;
+}
+
+.profile-picture {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
