@@ -1,5 +1,11 @@
 @import '../../App.css';
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navbar {
     background-color: var(--primary);
     height: 10vh;
@@ -11,6 +17,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 0;
+    max-width: 1100px;
 }
 
 .nav-menu {

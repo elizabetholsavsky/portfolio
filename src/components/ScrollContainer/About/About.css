@@ -1,0 +1,22 @@
+.about-text {
+    max-width: 450px;
+    min-width: 250px;
+    padding: 20px;
+}
+
+.profile-picture {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile-picture img {
+    max-width: 300px;
+    min-width: 200px;
+    border-radius: 50%;
+    border: 10px solid var(--primary);
+    margin: 20px;
+}
