@@ -1,22 +1,30 @@
 .about-text {
-    max-width: 450px;
+    max-width: 500px;
     min-width: 250px;
     padding: 20px;
-}
-
-.profile-picture {
-    display: flex;
-    width: 80%;
-    max-width: 1000px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    font-size: 1.25rem;
 }
 
 .profile-picture img {
-    max-width: 300px;
-    min-width: 200px;
-    border-radius: 50%;
     border: 10px solid var(--primary);
-    margin: 20px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+
+@media (max-width: 390px) {
+    .profile-picture img {
+        width: 275px;
+    }
+}
+
+@media (max-width: 350px) {
+    .profile-picture img {
+        width: 200px;
+    }
+
+    .about-text {
+        font-size: 1rem;
+    }
 }

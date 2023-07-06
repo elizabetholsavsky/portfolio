@@ -1,3 +1,8 @@
-#contact {
-    height: 85%;
+.contact-section {
+    min-height: 85%;
+    max-height: fit-content;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
