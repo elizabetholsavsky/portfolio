@@ -1,1 +1,22 @@
-.pro
+.project-card {
+    background-color: var(--secondary);
+    padding: 20px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.project-text {
+    width: 50%;
+}
+
+.project-img-container {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center; 
+}
+
+.project-img-container img {
+    max-width: 500px;
+    height: auto;
+}

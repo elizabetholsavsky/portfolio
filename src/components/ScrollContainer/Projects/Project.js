@@ -1,3 +1,5 @@
+import './Projects.css'
+
 const Project = ({
     title, 
     description,
@@ -14,18 +16,23 @@ const Project = ({
 
     return (
         <div className="project-card">
-            <h4>{title}</h4>
-            <p>{description}</p>
-            
-            {tags.map((tag, index) => (
-                <span key={index}>{tag}</span>
-            ))}
+            <div className='project-text'>
+                <h4>{title}</h4>
+                <p>{description}</p>
+                
+                {tags.map((tag, index) => (
+                    <span key={index}>{tag}</span>
+                ))}
 
-            <button onClick={() => openLink(deployLink)}>Visit Site</button>
-            <button onClick={() => openLink(githubLink)}>View Repo</button>
-            <button onClick={() => openLink(vscodeLink)}>Explore Code</button>
+                <button onClick={() => openLink(deployLink)}>Visit Site</button>
+                <button onClick={() => openLink(githubLink)}>View Repo</button>
+                <button onClick={() => openLink(vscodeLink)}>Explore Code</button>
+            </div>
+
+            <div className='project-img-container'>
+                <img src={img} alt={title}/>
+            </div>
             
-            <img src={img} alt={title}/>
         </div>
     )
 }
