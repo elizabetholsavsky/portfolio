@@ -1,5 +1,6 @@
 import scriptlySpeakingImg from '../images/project-img/scriptly-speaking.png';
 import weatherDashboardImg from '../images/project-img/weather-dashboard.png';
+import fusionFablesImg from '../images/project-img/fusion-fables.png';
 
 export const projectInfo = [
     {
@@ -23,5 +24,16 @@ export const projectInfo = [
         githubLink:"https://github.com/elizabetholsavsky/weather-dashboard",
         vscodeLink:"https://vscode.dev/github/elizabetholsavsky/weather-dashboard",
         img: weatherDashboardImg,
+    },
+    {
+        id: 3,
+        title:"Fusion Fables Team Project",
+        url:"https://github.com/HunterHester/fusion-fables",
+        description: "Blog-style writing platform for collaborative projects where users can share ideas and contribute to others. Worked collaboratively with teammates in agile workflow using GitHub projects and kanban board. Resolved git conflicts, pair-programmed, and problem-solved to surpass our MVP. Contributed to back end and routing.",
+        tags: ["Node", "mySQL", "Sequelize", "Express", "Bcrypt", "Handlebars", "Bootstrap"],
+        deployLink:"https://github.com/HunterHester/fusion-fables",
+        githubLink:"https://github.com/HunterHester/fusion-fables",
+        vscodeLink:"https://vscode.dev/github/HunterHester/fusion-fables",
+        img: fusionFablesImg,
     },
 ];
