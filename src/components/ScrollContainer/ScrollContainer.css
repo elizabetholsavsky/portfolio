@@ -53,6 +53,6 @@ section {
 
 @media (max-width: 1000px) {
     .content-container {
-        width: 100%;
+        width: 95%;
     }
 }
