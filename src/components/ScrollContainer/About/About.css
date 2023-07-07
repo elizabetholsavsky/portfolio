@@ -1,8 +1,7 @@
-.about-text {
+#about .content-text {
     max-width: 500px;
     min-width: 250px;
-    padding: 20px;
-    font-size: 1.25rem;
+
 }
 
 .profile-picture img {
@@ -22,9 +21,5 @@
 @media (max-width: 350px) {
     .profile-picture img {
         width: 200px;
-    }
-
-    .about-text {
-        font-size: 1rem;
     }
 }
