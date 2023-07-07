@@ -2,11 +2,13 @@ import './Contact.css'
 
 const Contact = () => {
     return (
-    <>
-        <section className="contact-section" id="contact">
-            <h2> Contact </h2>
+        <section id="contact" className='contact-section'>
+            <div className="content-container">
+                <div className="content-text">
+                <h2> Contact </h2>
+                </div>
+            </div>
         </section>
-    </>    
     )
 }
 export default Contact
