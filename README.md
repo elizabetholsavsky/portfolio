@@ -9,3 +9,5 @@
 * [JavaScript - How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript](https://www.youtube.com/watch?v=flItyHiDm7E) by [Miguel Z. Nunez](https://github.com/miguelznunez)
 
 * [Favicon.io](https://favicon.io/favicon-generator/)
+
+* [SVG Repo](https://www.svgrepo.com/)
