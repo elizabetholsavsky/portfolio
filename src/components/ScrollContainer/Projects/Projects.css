@@ -9,6 +9,27 @@
     width: 50%;
 }
 
+.link-buttons {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-buttons button {
+    padding: 10px;
+}   
+
+.deploy-link {
+    background-color: var(--action);
+    width: 32%;
+}
+
+.github-link, .vscode-link {
+    background-color: var(--primary);
+    width: 32%;
+}
+
 .project-img-container {
     width: 50%;
     display: flex;

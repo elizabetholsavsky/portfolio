@@ -23,10 +23,11 @@ const Project = ({
                 {tags.map((tag, index) => (
                     <span key={index}>{tag}</span>
                 ))}
-
-                <button onClick={() => openLink(deployLink)}>Visit Site</button>
-                <button onClick={() => openLink(githubLink)}>View Repo</button>
-                <button onClick={() => openLink(vscodeLink)}>Explore Code</button>
+                <div className="link-buttons">
+                    <button className="deploy-link" onClick={() => openLink(deployLink)}>Visit Site</button>
+                    <button className="github-link" onClick={() => openLink(githubLink)}>View Repo</button>
+                    <button className="vscode-link" onClick={() => openLink(vscodeLink)}>Explore Code</button>
+                </div>
             </div>
 
             <div className='project-img-container'>
