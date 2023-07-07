@@ -2,6 +2,8 @@
     background-color: var(--secondary);
     padding: 20px;
     display: flex;
+    margin-bottom: 50px;
+    min-height: 500px;
 }
 
 .project-info {
@@ -24,6 +26,7 @@
 
 .project-text h5 a {
     text-decoration: none;
+    color: var(--text);
 }
 
 .project-text p {
@@ -80,6 +83,6 @@
 }
 
 .project-img-container img {
-    max-width: 500px;
+    max-width: 550px;
     height: auto;
 }
