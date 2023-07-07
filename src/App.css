@@ -8,10 +8,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-html {
-    background: var(--primary);
-}
-
 :root {
     --primary: #dbcac1;
     --text: rgb(30, 30, 50);
