@@ -7,3 +7,5 @@
 * [Portfolio Pure CSS Scroll Snapping Tutorial](https://www.youtube.com/watch?v=pNPkVQD7vlM&t=1s) by [Filip Grebowski](https://github.com/FilipGrebowski)
 
 * [JavaScript - How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript](https://www.youtube.com/watch?v=flItyHiDm7E) by [Miguel Z. Nunez](https://github.com/miguelznunez)
+
+* [Favicon.io](https://favicon.io/favicon-generator/)
