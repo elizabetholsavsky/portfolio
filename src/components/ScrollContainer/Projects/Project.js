@@ -16,13 +16,19 @@ const Project = ({
 
     return (
         <div className="project-card">
-            <div className='project-text'>
-                <h4>{title}</h4>
-                <p>{description}</p>
+            <div className='project-info'>
+
+                <div className="project-text">
+                    <h4>{title}</h4>
+                    <p>{description}</p>
+
+                    <div className="tag-container">
+                        {tags.map((tag, index) => (
+                        <span className="tags" key={index}>{tag}</span>
+                        ))}
+                    </div>
+                </div>
                 
-                {tags.map((tag, index) => (
-                    <span key={index}>{tag}</span>
-                ))}
                 <div className="link-buttons">
                     <button className="deploy-link" onClick={() => openLink(deployLink)}>Visit Site</button>
                     <button className="github-link" onClick={() => openLink(githubLink)}>View Repo</button>

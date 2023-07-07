@@ -2,22 +2,54 @@
     background-color: var(--secondary);
     padding: 20px;
     display: flex;
-    border-radius: 5px;
 }
 
-.project-text {
+.project-info {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-text h4 {
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+
+.project-text p {
+    font-size: 1.25rem;
+    padding-bottom: 5px;
+}
+
+.tag-container {
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+
+.tags {
+    background-color: var(--text);
+    color: var(--background);
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 .link-buttons {
     width: 100%;
-    padding-top: 20px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
 }
 
 .link-buttons button {
     padding: 10px;
+    font-size: 1rem;
 }   
 
 .deploy-link {
