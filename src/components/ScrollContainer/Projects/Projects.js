@@ -14,6 +14,7 @@ const Projects = () => {
                     {projectInfo.map( (projectInfo, index) => {
                     const {
                         title, 
+                        url,
                         description,
                         tags,
                         deployLink,

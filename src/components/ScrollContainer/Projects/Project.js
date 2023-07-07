@@ -2,6 +2,7 @@ import './Projects.css'
 
 const Project = ({
     title, 
+    url,
     description,
     tags,
     deployLink,
@@ -20,6 +21,7 @@ const Project = ({
 
                 <div className="project-text">
                     <h4>{title}</h4>
+                    <h5><a href={url} target="_blank">{url}</a></h5>
                     <p>{description}</p>
 
                     <div className="tag-container">
