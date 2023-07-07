@@ -1,5 +1,9 @@
 import './Projects.css'
 
+import webLink from '../images/icons/web-link.svg';
+import git from '../images/icons/git.svg';
+import visualStudio from '../images/icons/visual-studio-code.svg';
+
 const Project = ({
     title, 
     url,
@@ -21,7 +25,9 @@ const Project = ({
 
                 <div className="project-text">
                     <h4>{title}</h4>
-                    <h5><a href={url} target="_blank">{url}</a></h5>
+                    <h5><span className="project-url">
+                        <a href={url} target="_blank">{url}</a>
+                        </span></h5>
                     <p>{description}</p>
 
                     <div className="tag-container">
@@ -31,10 +37,29 @@ const Project = ({
                     </div>
                 </div>
                 
-                <div className="link-buttons">
-                    <button className="deploy-link" onClick={() => openLink(deployLink)}>Visit Site</button>
-                    <button className="github-link" onClick={() => openLink(githubLink)}>View Repo</button>
-                    <button className="vscode-link" onClick={() => openLink(vscodeLink)}>Explore Code</button>
+                <div className="link-buttons-container">
+
+                    <button className="deploy-link" onClick={() => openLink(deployLink)}>
+                        <div>
+                            <img className="project-button-icon" src= {webLink} alt="Deployed Link"/>
+                            <span>Visit Site</span>
+                        </div>            
+                    </button>
+
+                    <button className="github-link" onClick={() => openLink(githubLink)}>
+                        <div>
+                            <img className="project-button-icon" src= {git} alt="GitHub Repository Link"/>
+                            <span>View Repo</span>
+                        </div>         
+                    </button>
+
+                    <button className="vscode-link" onClick={() => openLink(vscodeLink)}>
+                        <div>
+                            <img className="project-button-icon" src= {visualStudio} alt="Visual Studios Code Link"/>
+                            <span>Explore Code</span>
+                        </div> 
+                    </button>
+
                 </div>
             </div>
 

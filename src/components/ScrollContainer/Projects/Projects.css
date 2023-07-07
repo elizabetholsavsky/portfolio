@@ -1,16 +1,17 @@
 .project-card {
     background-color: var(--secondary);
-    padding: 20px;
     display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
     margin-bottom: 100px;
-    min-height: 500px;
 }
 
+/* project info text (LEFT SIDE) */
 .project-info {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 50%;
 }
 
 .project-text h4 {
@@ -34,12 +35,12 @@
     padding-bottom: 5px;
 }
 
+/* tags */
 .tag-container {
     display: flex;
     justify-content:flex-start;
     flex-wrap: wrap;
     margin-bottom: 20px;
-
 }
 
 .tags {
@@ -49,21 +50,38 @@
     margin-right: 10px;
     margin-top: 10px;
     border-radius: 20px;
-    font-weight: bold;
     font-size: 1rem;
 }
 
-.link-buttons {
+/* buttons */
+.link-buttons-container {
     width: 100%;
     height: 50px;
     display: flex;
+    align-items: center; 
     justify-content: space-between;
 }
 
-.link-buttons button {
+.link-buttons-container button {
     padding: 10px;
     font-size: 1rem;
 }   
+
+.link-buttons-container button div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-buttons-container button span {
+    line-height: 1;
+}
+
+.project-button-icon {
+    max-width: 35px;
+    height: auto;
+    margin-right: 5px;
+}
 
 .deploy-link {
     background-color: var(--action);
@@ -75,6 +93,7 @@
     width: 32%;
 }
 
+/* project img (RIGHT SIDE) */
 .project-img-container {
     width: 50%;
     display: flex;
@@ -83,6 +102,46 @@
 }
 
 .project-img-container img {
-    max-width: 550px;
+    max-width: 95%;
     height: auto;
+}
+
+@media (max-width: 1000px) {
+    .project-card {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+
+    .project-info, .project-img-container {
+        width: 100%;
+    }
+
+    .project-img-container {
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .link-buttons-container {
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center; 
+        margin-bottom: 60px;
+    }
+
+    .deploy-link {
+        width: 100%;
+    }
+    
+    .github-link, .vscode-link {
+        background-color: var(--primary);
+        width: 49%;
+        margin-top: 10px;
+    }
+
+    .project-url {
+        display: none;
+    }
 }
