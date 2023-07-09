@@ -1,10 +1,11 @@
 import React from 'react';
+import "./SVG.css"
 
 const SvgUp = ({ fill }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
+    width="40px"
+    height="40px"
     fill={fill}
     viewBox="0 0 24 24"
   >
