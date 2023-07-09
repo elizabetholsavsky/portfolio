@@ -81,6 +81,7 @@
     max-width: 35px;
     height: auto;
     margin-right: 5px;
+    fill:red;
 }
 
 .deploy-link {

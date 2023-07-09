@@ -13,8 +13,8 @@ const ScrollContainer = () => {
         <Projects/>
         <Resume/>
         <Contact/>
-    </main>
         <Footer/>
+    </main>
     </>
     )
 }
