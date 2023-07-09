@@ -3,7 +3,7 @@ import ProfilePicture from '../images/Elizabeth.jpg'
 
 const About = () => {
     return (
-        <section id="about">
+        <section aria-label="about" id="about">
             <div className="content-container">
                 <div className="content-text">
                     <h2>About</h2>
