@@ -11,3 +11,7 @@
 * [Favicon.io](https://favicon.io/favicon-generator/)
 
 * [SVG Repo](https://www.svgrepo.com/)
+
+* [SVGR](https://react-svgr.com/) / [SVGR/CLI](https://www.npmjs.com/package/@svgr/cli)
+  * `npm install @svgr/cli --save-dev`
+  * `npx svgr src/components/ScrollContainer/images/icons/{ICON_NAME}.svg --out-dir src/components/ScrollContainer/SVG --icon`
