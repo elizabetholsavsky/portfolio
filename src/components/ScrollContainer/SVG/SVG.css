@@ -1,0 +1,7 @@
+.link-buttons-container svg {
+    fill: var(--text);
+    width: 40px;
+    min-width: 40px;
+    height: auto;
+    padding-right: 2px;
+}

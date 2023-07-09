@@ -7,15 +7,13 @@ import './ScrollContainer.css'
 
 const ScrollContainer = () => {
     return (
-    <>
-    <main className='scroll-container'>
-        <About/>
-        <Projects/>
-        <Resume/>
-        <Contact/>
-        <Footer/>
-    </main>
-    </>
+    <div className='scroll-container'>
+            <About/>
+            <Projects/>
+            <Resume/>
+            <Contact/>
+            <Footer/>
+    </div>
     )
 }
 export default ScrollContainer

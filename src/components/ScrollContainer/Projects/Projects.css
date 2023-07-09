@@ -2,7 +2,7 @@
     background-color: var(--secondary);
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 20px;
     margin-bottom: 100px;
 }
 
@@ -60,11 +60,13 @@
     display: flex;
     align-items: center; 
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .link-buttons-container button {
-    padding: 10px;
+    padding: 15px;
     font-size: 1rem;
+    font-weight: bold;
 }   
 
 .link-buttons-container button div {
@@ -75,12 +77,6 @@
 
 .link-buttons-container button span {
     line-height: 1;
-}
-
-.project-button-icon {
-    max-width: 35px;
-    height: auto;
-    margin-right: 5px;
 }
 
 .deploy-link {
@@ -119,7 +115,7 @@
     }
 
     .project-img-container {
-        margin-top: 30px;
+        margin-top: 70px;
         justify-content: center;
     }
 

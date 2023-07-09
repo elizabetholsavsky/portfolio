@@ -1,8 +1,8 @@
 import './Projects.css'
 
-import webLink from '../images/icons/web-link.svg';
-import git from '../images/icons/git.svg';
-import visualStudio from '../images/icons/visual-studio-code.svg';
+import WebLink from '../SVG/WebLink';
+import Git from '../SVG/Git';
+import Code from '../SVG/Code';
 
 const Project = ({
     title, 
@@ -41,22 +41,22 @@ const Project = ({
 
                     <button className="deploy-link" onClick={() => openLink(deployLink)}>
                         <div>
-                            <img className="project-button-icon" src= {webLink} alt="Deployed Link"/>
+                            <WebLink alt="Deployed Link"/>
                             <span>Visit Site</span>
                         </div>            
                     </button>
 
                     <button className="github-link" onClick={() => openLink(githubLink)}>
                         <div>
-                            <img className="project-button-icon" src= {git} alt="GitHub Repository Link"/>
+                            <Git alt="GitHub Repository Link"/>
                             <span>View Repo</span>
                         </div>         
                     </button>
 
                     <button className="vscode-link" onClick={() => openLink(vscodeLink)}>
                         <div>
-                            <img className="project-button-icon" src= {visualStudio} alt="Visual Studios Code Link"/>
-                            <span>Explore Code</span>
+                            <Code alt="Visual Studios Code Link"/>
+                            <span>Browse Code</span>
                         </div> 
                     </button>
 

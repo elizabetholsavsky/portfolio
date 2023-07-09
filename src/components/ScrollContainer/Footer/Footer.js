@@ -1,4 +1,5 @@
 import './Footer.css'
+import SvgUp from '../SVG/Up.js';
 
 const Footer = () => {
 
@@ -13,7 +14,7 @@ const Footer = () => {
         <footer>
             <section id="footer">
                 <a href="#about" onClick={scrollToTop}>
-                    <h3>Back to Top</h3>
+                    <SvgUp fill="var (--text)"/>
                 </a> 
                 <h3 className='copyright'>© 2023 Elizabeth Olsavsky</h3>
             </section>
