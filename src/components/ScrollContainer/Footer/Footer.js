@@ -14,7 +14,7 @@ const Footer = () => {
         <footer>
             <section id="footer">
                 <a href="#about" onClick={scrollToTop}>
-                    <SvgUp fill="var (--text)"/>
+                    <SvgUp title="Scroll to top of page"/>
                 </a> 
                 <h3 className='copyright'>© 2023 Elizabeth Olsavsky</h3>
             </section>

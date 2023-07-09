@@ -41,21 +41,21 @@ const Project = ({
 
                     <button className="deploy-link" onClick={() => openLink(deployLink)}>
                         <div>
-                            <WebLink alt="Deployed Link"/>
+                            <WebLink title="Deployed Link"/>
                             <span>Visit Site</span>
                         </div>            
                     </button>
 
                     <button className="github-link" onClick={() => openLink(githubLink)}>
                         <div>
-                            <Git alt="GitHub Repository Link"/>
+                            <Git title="GitHub Repository Link"/>
                             <span>View Repo</span>
                         </div>         
                     </button>
 
                     <button className="vscode-link" onClick={() => openLink(vscodeLink)}>
                         <div>
-                            <Code alt="Visual Studios Code Link"/>
+                            <Code title="Visual Studios Code Link"/>
                             <span>Browse Code</span>
                         </div> 
                     </button>
