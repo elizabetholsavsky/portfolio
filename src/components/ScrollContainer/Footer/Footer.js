@@ -1,5 +1,5 @@
 import './Footer.css'
-import SvgUp from '../icons/Up.js';
+import SvgUp from '../SVG/Up.js';
 
 const Footer = () => {
 
