@@ -27,7 +27,7 @@ header {
 }
 
 .name, .nav-link {
-    color: var(--text);
+    color: #f4f1f6;
     text-decoration: none;
 }
 
@@ -40,6 +40,10 @@ h1 {
 }
 
 .nav-link:hover {
+    color: var(--active);
+}
+
+.name:hover {
     color: var(--active);
 }
 

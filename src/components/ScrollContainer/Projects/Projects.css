@@ -1,5 +1,5 @@
 .project-card {
-    background-color: var(--secondary);
+    background-color: var(--secondary-light);
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
@@ -85,8 +85,11 @@
 }
 
 .github-link, .vscode-link {
-    background-color: var(--primary);
     width: 32%;
+}
+
+.github-link, .vscode-link, .button-color {
+    background-color: var(--secondary);
 }
 
 /* project img (RIGHT SIDE) */
@@ -132,7 +135,6 @@
     }
     
     .github-link, .vscode-link {
-        background-color: var(--primary);
         width: 49%;
         margin-top: 10px;
     }

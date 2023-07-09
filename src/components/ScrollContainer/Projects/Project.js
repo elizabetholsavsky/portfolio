@@ -47,14 +47,14 @@ const Project = ({
                     </button>
 
                     <button className="github-link" onClick={() => openLink(githubLink)}>
-                        <div>
+                        <div className='button-color'>
                             <Git title="GitHub Repository Link"/>
                             <span>View Repo</span>
                         </div>         
                     </button>
 
                     <button className="vscode-link" onClick={() => openLink(vscodeLink)}>
-                        <div>
+                        <div className='button-color'>
                             <Code title="Visual Studios Code Link"/>
                             <span>Browse Code</span>
                         </div> 
