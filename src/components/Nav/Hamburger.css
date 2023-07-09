@@ -12,7 +12,7 @@
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: var(--text);
+    background-color: #f4f1f6;
 }
 
 @media(max-width:825px) {
