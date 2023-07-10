@@ -10,7 +10,9 @@ import SvgTwitter from '../SVG/Twitter';
 const About = () => {
     return (
         <section aria-label="about" id="about">
-            <div className="content-container">
+            <div className="about-wrapper">
+            
+            <div className="about-content-container">
                 <div className="content-text">
                     <h2>About</h2>
                     <h3>Elizabeth Olsavsky</h3>
@@ -31,13 +33,12 @@ const About = () => {
                         <br/>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos fugiat reiciendis aperiam, voluptatum eveniet quisquam quibusdam explicabo corporis, vero, non omnis consequatur numquam cum porro? Hic repellat officia iste!</p>
                     </div>
-
-                    <div className='profile-picture-container'>
-                        <img src={ProfilePicture} alt="Elizabeth Olsavsky" className='elizabeth'/>
-                    </div>
                 </div>
+            </div>
 
-                
+            <div className='profile-picture-container'>
+                        <img src={ProfilePicture} alt="Elizabeth Olsavsky" className='elizabeth'/>
+            </div>
             </div>
     </section>
 )
