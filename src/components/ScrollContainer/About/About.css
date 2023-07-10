@@ -2,7 +2,7 @@
     width: 85%;
     max-width: 1200px;
     display: flex;
-
+    flex-wrap: wrap;
 }
 .about-content-container {
     display: flex;
@@ -10,7 +10,7 @@
     width: 60%;
     align-items: flex-start;
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
 
 #about h3 {
@@ -40,6 +40,7 @@
     justify-content: space-between;
     width: 40%;
     align-items: center;
+    justify-content: center;
 }
 
 .profile-picture-container img {
@@ -50,7 +51,7 @@
 }
 
 @media (max-width: 900px) {
-    .about-text-container,.profile-picture-container {
+    .about-content-container, .profile-picture-container {
         width: 100%;
     }
 
