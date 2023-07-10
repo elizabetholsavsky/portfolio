@@ -3,18 +3,28 @@ import ProfilePicture from '../images/Elizabeth.jpg'
 
 const About = () => {
     return (
-        <section id="about">
+        <section aria-label="about" id="about">
             <div className="content-container">
                 <div className="content-text">
                     <h2>About</h2>
-                    <h3>Web Developer</h3>
-                    <h4>Austin, TX</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos fugiat reiciendis aperiam, voluptatum eveniet quisquam quibusdam explicabo corporis, vero, non omnis consequatur numquam cum porro? Hic repellat officia iste!</p>
+                    <h3>Elizabeth Olsavsky</h3>
+                    <h4>Web Developer</h4>
+                    <h5>Austin, TX</h5>
                 </div>
 
-                <div className='profile-picture'>
-                    <img src={ProfilePicture} alt="Elizabeth Olsavsky" className='elizabeth'/>
+                <div className="about-card">
+                    <div className="about-text-container">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos fugiat reiciendis aperiam, voluptatum eveniet quisquam quibusdam explicabo corporis, vero, non omnis consequatur numquam cum porro? Hic repellat officia iste!</p>
+                        <br/>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos fugiat reiciendis aperiam, voluptatum eveniet quisquam quibusdam explicabo corporis, vero, non omnis consequatur numquam cum porro? Hic repellat officia iste!</p>
+                    </div>
+
+                    <div className='profile-picture-container'>
+                        <img src={ProfilePicture} alt="Elizabeth Olsavsky" className='elizabeth'/>
+                    </div>
                 </div>
+
+                
             </div>
     </section>
 )

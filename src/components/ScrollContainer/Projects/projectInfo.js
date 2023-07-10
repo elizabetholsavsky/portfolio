@@ -31,7 +31,7 @@ export const projectInfo = [
         url:"https://github.com/HunterHester/fusion-fables",
         description: "Blog-style writing platform for collaborative projects where users can share ideas and contribute to others. Worked collaboratively with teammates in agile workflow using GitHub projects and kanban board. Resolved git conflicts, pair-programmed, and problem-solved to surpass our MVP. Contributed to back end and routing.",
         tags: ["Node", "mySQL", "Sequelize", "Express", "Bcrypt", "Handlebars", "Bootstrap"],
-        deployLink:"https://github.com/HunterHester/fusion-fables",
+        deployLink:"http://www.fusionfables.com/",
         githubLink:"https://github.com/HunterHester/fusion-fables",
         vscodeLink:"https://vscode.dev/github/HunterHester/fusion-fables",
         img: fusionFablesImg,

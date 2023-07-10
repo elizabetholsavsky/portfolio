@@ -5,3 +5,11 @@
     height: auto;
     padding-right: 2px;
 }
+
+footer svg {
+    fill: #f4f1f6;
+}
+
+footer svg:hover {
+    fill: var(--active)
+}

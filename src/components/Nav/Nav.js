@@ -72,60 +72,62 @@ const Nav = () => {
 
     return (
         <nav className="navbar">
-        <a href="#about" className="name">
-            <h1>Elizabeth Olsavsky</h1>
-        </a>
+            <div className="nav-container">
+                <a href="#about" className="name">
+                    <h1>Elizabeth Olsavsky</h1>
+                </a>
 
-        <div className={`hamburger ${menuActive ? 'active' : ''}`} onClick={() => setMenuActive(!menuActive)}>
-            <div className='hamburger-container'>
-            <span className="hamburger-bar"></span>
-            <span className="hamburger-bar"></span>
-            <span className="hamburger-bar"></span>
+                <div className={`hamburger ${menuActive ? 'active' : ''}`} onClick={() => setMenuActive(!menuActive)}>
+                    <div className='hamburger-container'>
+                    <span className="hamburger-bar"></span>
+                    <span className="hamburger-bar"></span>
+                    <span className="hamburger-bar"></span>
+                    </div>
+                </div>
+
+                <ul className={`nav-menu ${menuActive ? 'active' : 'nav-menu'}`}>
+                    <li className="nav-item">
+                        <a
+                            href="#about"
+                            className={`nav-link ${activeSection === 'about' ? 'active' : ''}`}
+                            onClick={() => handleNavItemClick('about')}>
+                            About
+                        </a>
+                    </li>
+
+                    <li className="nav-item">
+                        <a
+                            href="#projects"
+                            className={`nav-link ${
+                            activeSection === 'projects' ? 'active' : ''
+                            }`}
+                            onClick={() => handleNavItemClick('projects')}>
+                            Projects
+                        </a>
+                    </li>
+
+                    <li className="nav-item">
+                        <a
+                            href="#resume"
+                            className={`nav-link ${activeSection === 'resume' ? 'active' : ''}`}
+                            onClick={() => handleNavItemClick('resume')}>
+                            Resume
+                        </a>
+                    </li>
+
+                    <li className="nav-item">
+                        <a
+                            href="#contact"
+                            className={`nav-link ${
+                            activeSection === 'contact' ? 'active' : ''
+                            }`}
+                            onClick={() => handleNavItemClick('contact')}>
+                            Contact
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
-
-        <ul className={`nav-menu ${menuActive ? 'active' : 'nav-menu'}`}>
-            <li className="nav-item">
-            <a
-                href="#about"
-                className={`nav-link ${activeSection === 'about' ? 'active' : ''}`}
-                onClick={() => handleNavItemClick('about')}>
-                About
-            </a>
-            </li>
-
-            <li className="nav-item">
-            <a
-                href="#projects"
-                className={`nav-link ${
-                activeSection === 'projects' ? 'active' : ''
-                }`}
-                onClick={() => handleNavItemClick('projects')}>
-                Projects
-            </a>
-            </li>
-
-            <li className="nav-item">
-            <a
-                href="#resume"
-                className={`nav-link ${activeSection === 'resume' ? 'active' : ''}`}
-                onClick={() => handleNavItemClick('resume')}>
-                Resume
-            </a>
-            </li>
-
-            <li className="nav-item">
-            <a
-                href="#contact"
-                className={`nav-link ${
-                activeSection === 'contact' ? 'active' : ''
-                }`}
-                onClick={() => handleNavItemClick('contact')}>
-                Contact
-            </a>
-            </li>
-        </ul>
-    </nav>
+        </nav>
     );
 }
 

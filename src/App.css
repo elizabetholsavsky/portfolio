@@ -9,12 +9,14 @@
 }
 
 :root {
-    --primary: #dbcac1;
-    --text: rgb(30, 30, 50);
-    --action: #bc65e8;
-    --active: rgb(80, 80, 135);
-    --secondary: rgb(205, 205, 242);
     --background: #f4f1f6;
+    --inverse-text: #f4f1f6;
+    --primary:  rgb(16, 16, 16);
+    --text: rgb(16, 16, 16);
+    --secondary: rgb(141, 141, 190);
+    --secondary-light: rgba(141, 141, 190, .3);
+    --action: #ffcb9a;
+    --active: rgb(236, 245, 164);
     --font-size: 1.25rem;
 
 }

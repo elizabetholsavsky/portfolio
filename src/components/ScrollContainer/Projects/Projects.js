@@ -3,7 +3,7 @@ import Project from './Project.js';
 
 const Projects = () => {
     return (
-        <section id="projects">
+        <section aria-label="projects" id="projects">
             <div className="content-container">
 
                 <div className="content-text">
