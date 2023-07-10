@@ -1,3 +1,12 @@
+.socials-container svg {
+    fill: var(--text);
+    width: 40px;
+    min-width: 40px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
 .link-buttons-container svg {
     fill: var(--text);
     width: 40px;
@@ -6,10 +15,18 @@
     padding-right: 2px;
 }
 
+footer svg:hover {
+    fill: var(--active)
+}
+
 footer svg {
+    margin-top: 10px;
     fill: #f4f1f6;
 }
 
-footer svg:hover {
-    fill: var(--active)
+.footer-socials-container svg {
+    min-width: 40px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
