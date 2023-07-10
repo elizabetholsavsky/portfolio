@@ -49,10 +49,6 @@ section {
     font-weight: bold;
 }
 
-.content-text h4 {
-    margin-bottom: 10px;
-}
-
 @media (max-width: 1000px) {
     .content-container {
         width: 95%;

@@ -1,5 +1,6 @@
 .contact-section {
     min-height: 80%;
+    max-height: fit-content;
     scroll-snap-align: start;
     display: flex;
     align-items: center;
@@ -77,4 +78,18 @@ textarea {
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .message-container, .form-container {
+        width: 100%;
+    }
+
+    .message-container {
+        padding-bottom: 30px;
+    }
+
+    .form-card {
+        margin-bottom: 30px;
+    }
 }
