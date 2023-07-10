@@ -6,6 +6,12 @@
     justify-content: center;
 }
 
+.section #contact {
+    background-color: var(--secondary-light);
+    display: flex;
+    flex-direction: column;
+}
+
 .form-container {
     background-color: var(--secondary-light);
     display: flex;

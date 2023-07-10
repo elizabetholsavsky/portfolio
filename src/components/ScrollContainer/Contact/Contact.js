@@ -80,34 +80,31 @@ const Contact = () => {
                 <div className="form-container">
                     <form ref={form} onSubmit={sendEmail}>
 
+                        <label htmlFor="name">Name</label>
                         <input
                         type="text"
-                        placeholder="Name"
                         name="user_name"
                         required
                         onBlur={handleBlur}
                         onChange={handleInputChange}
+                        aria-describedby="name-error"
                         />
 
-                        {nameError && <div className="error">{nameError}</div>}
+                        {nameError && <div id="name-error" className="error" role="alert">{nameError}</div>}
 
+                        <label htmlFor="email">Email</label>
                         <input
                         type="email"
-                        placeholder="Email"
                         name="user_email"
                         required
                         onBlur={handleBlur}
                         onChange={handleInputChange}
+                        aria-describedby="email-error"
                         />
 
-                        {emailError && <div className="error">{emailError}</div>}
+                        {emailError && <div id="email-error" className="error" role="alert">{emailError}</div>}
 
-                        <input
-                        type="text"
-                        placeholder="Subject"
-                        name="subject"
-                        />
-
+                        <label htmlFor="message">Message</label>
                         <textarea name="message"></textarea>
 
                         <button className="submit-button" type="submit">
