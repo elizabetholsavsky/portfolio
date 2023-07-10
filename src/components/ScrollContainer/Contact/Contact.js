@@ -73,46 +73,59 @@ const Contact = () => {
     return (
         <section aria-label="contact" id="contact" className="contact-section">
             <div className="content-container">
+
                 <div className="content-text">
                     <h2> Contact </h2>
+                    <h3> Let's Connect! </h3>
                 </div>
 
-                <div className="form-container">
-                    <form ref={form} onSubmit={sendEmail}>
+                <div className="form-card">
+                    <div className="message-container">
+                        <h4>Add me</h4>
+                    </div>
 
-                        <label htmlFor="name">Name</label>
-                        <input
-                        type="text"
-                        name="user_name"
-                        required
-                        onBlur={handleBlur}
-                        onChange={handleInputChange}
-                        aria-describedby="name-error"
-                        />
+                    <div className="form-container">
+                        <form ref={form} onSubmit={sendEmail}>
+                            
+                            <div className="input-container">
+                                <label htmlFor="name">Name</label>
+                                <input
+                                type="text"
+                                name="user_name"
+                                required
+                                onBlur={handleBlur}
+                                onChange={handleInputChange}
+                                aria-describedby="name-error"
+                                />
 
-                        {nameError && <div id="name-error" className="error" role="alert">{nameError}</div>}
+                                {nameError && <div id="name-error" className={`error ${nameError ? 'show' : ''}`} role="alert">{nameError}</div>}
+                            </div>
 
-                        <label htmlFor="email">Email</label>
-                        <input
-                        type="email"
-                        name="user_email"
-                        required
-                        onBlur={handleBlur}
-                        onChange={handleInputChange}
-                        aria-describedby="email-error"
-                        />
+                            <div className="input-container">
+                                <label htmlFor="email">Email</label>
+                                <input
+                                type="email"
+                                name="user_email"
+                                required
+                                onBlur={handleBlur}
+                                onChange={handleInputChange}
+                                aria-describedby="email-error"
+                                />
 
-                        {emailError && <div id="email-error" className="error" role="alert">{emailError}</div>}
+                                {emailError && <div id="email-error" className={`error ${emailError ? 'show' : ''}`} role="alert">{emailError}</div>}
+                            </div>
 
-                        <label htmlFor="message">Message</label>
-                        <textarea name="message"></textarea>
+                            <label htmlFor="message">Message</label>
+                            <textarea name="message"></textarea>
 
-                        <button className="submit-button" type="submit">
-                        Send
-                        </button>
+                            <button className="submit-button" type="submit">
+                            Send
+                            </button>
 
-                    </form>
+                        </form>
+                    </div>
                 </div>
+
             </div>
         </section>
     );
