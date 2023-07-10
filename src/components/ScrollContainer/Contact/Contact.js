@@ -82,20 +82,26 @@ const Contact = () => {
                 <div className="form-card">
                     <div className="message-container">
                         <h4>Add me</h4>
+                        <br/>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut voluptates laudantium neque rerum veritatis rem deserunt error cumque sapiente! Distinctio temporibus vitae error quia ut et similique! Consectetur, velit porro.</p>
                     </div>
 
                     <div className="form-container">
                         <form ref={form} onSubmit={sendEmail}>
-                            
+
+                            <h4>Send a message</h4>
+                            <br/>
                             <div className="input-container">
                                 <label htmlFor="name">Name</label>
                                 <input
                                 type="text"
+                                id="name"
                                 name="user_name"
                                 required
                                 onBlur={handleBlur}
                                 onChange={handleInputChange}
                                 aria-describedby="name-error"
+                                autoComplete="given-name"
                                 />
 
                                 {nameError && <div id="name-error" className={`error ${nameError ? 'show' : ''}`} role="alert">{nameError}</div>}
@@ -105,18 +111,20 @@ const Contact = () => {
                                 <label htmlFor="email">Email</label>
                                 <input
                                 type="email"
+                                id="email"
                                 name="user_email"
                                 required
                                 onBlur={handleBlur}
                                 onChange={handleInputChange}
                                 aria-describedby="email-error"
+                                autoComplete="email"
                                 />
 
                                 {emailError && <div id="email-error" className={`error ${emailError ? 'show' : ''}`} role="alert">{emailError}</div>}
                             </div>
 
                             <label htmlFor="message">Message</label>
-                            <textarea name="message"></textarea>
+                            <textarea name="message" id="message" autoComplete="off"></textarea>
 
                             <button className="submit-button" type="submit">
                             Send
