@@ -52,10 +52,6 @@ h1 {
     color: var(--active);
 }
 
-.name:hover {
-    color: var(--active);
-}
-
 .active {
     font-weight: bold;
     color: var(--active);
