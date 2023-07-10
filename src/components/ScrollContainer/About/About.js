@@ -1,5 +1,6 @@
 import './About.css'
-import ProfilePicture from '../images/Elizabeth.jpg'
+import ProfilePicture from '../images/Elizabeth.jpg';
+import SvgMapMarker from '../SVG/MapMarker';
 
 const About = () => {
     return (
@@ -9,7 +10,7 @@ const About = () => {
                     <h2>About</h2>
                     <h3>Elizabeth Olsavsky</h3>
                     <h4>Web Developer</h4>
-                    <h5>Austin, TX</h5>
+                    <h5><SvgMapMarker/>Austin, TX</h5>
                 </div>
 
                 <div className="about-card">
