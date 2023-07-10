@@ -1,25 +1,50 @@
-#about .content-text {
-    max-width: 500px;
-    min-width: 250px;
-
+#about h3 {
+    font-size: 2rem;
 }
 
-.profile-picture img {
+.about-card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 0;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    min-width: 400px;
+}
+
+.profile-picture-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+}
+
+.profile-picture-container img {
     border: 10px solid var(--secondary);
-    width: 300px;
-    border-radius: 50%;
-    margin: 10px;
-    
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;   
 }
 
-@media (max-width: 390px) {
-    .profile-picture img {
-        width: 275px;
+@media (max-width: 900px) {
+    .about-text-container,.profile-picture-container {
+        width: 100%;
     }
-}
 
-@media (max-width: 350px) {
-    .profile-picture img {
-        width: 200px;
+    .profile-picture-container img {
+        max-width: 300px;
+        margin-top: 20px;
+    }
+
+    .about-card {
+        padding: 0;
     }
 }
