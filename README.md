@@ -23,3 +23,5 @@
 
 * [react-modal](https://www.npmjs.com/package/react-modal)
    * [GitHub](https://github.com/reactjs/react-modal)
+
+* [Responsive Vertical Timeline using Html & Css](https://www.youtube.com/watch?v=L9W33EuGjoY&t=19s) by The WebShala
