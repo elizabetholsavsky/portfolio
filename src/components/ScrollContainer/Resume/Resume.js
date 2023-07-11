@@ -1,3 +1,5 @@
+import DownloadButton from "./DownloadButton"
+
 const Resume = () => {
 	return (
 		<section aria-label="resume" id="resume">
@@ -5,6 +7,8 @@ const Resume = () => {
                 <div className="content-text">
                     <h2> Resume </h2>
                     <h3> Join My Journey </h3>
+                    
+                    <DownloadButton/>
                 </div>
             </div>
         </section>
