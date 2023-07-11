@@ -1,5 +1,6 @@
 import DownloadButton from "./DownloadButton";
 import ViewButton from "./ViewButton";
+import "./Resume.css";
 
 const Resume = () => {
 	return (
@@ -8,8 +9,10 @@ const Resume = () => {
                 <div className="content-text">
                     <h2> Resume </h2>
                     <h3> Join My Journey </h3>
-                    <DownloadButton/>
-                    <ViewButton/>
+                        <div className="resume-button-container">
+                            <DownloadButton/>
+                            <ViewButton/>
+                        </div>  
                 </div>
             </div>
         </section>

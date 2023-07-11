@@ -59,7 +59,7 @@ h1 {
 
 @media(max-width:1000px) {
 .nav-container {
-    width: 100%;
+    width: 90%;
     justify-content: space-between;
 
     }
@@ -86,7 +86,6 @@ h1 {
 }
 
 @media (max-width: 300px) {
-
     .name {
         justify-content: left;
     }

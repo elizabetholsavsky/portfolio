@@ -1,0 +1,37 @@
+.download-button, .view-button, .close-button {
+    padding: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--text);
+}
+
+.download-button, .view-button button {
+    margin: 10px, 10px, 10px, 0;
+}
+
+.download-button {
+    background-color: var(--action);
+}
+
+.download-button a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.view-button {
+    background-color: var(--secondary);
+}
+
+.close-button {
+    background-color: var(--action);
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.resume-button-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    margin: 20px 20px 20px 0;
+}
