@@ -12,7 +12,7 @@ const Timeline = () => {
                         <div className="timeline-dot"></div>
                         <div className="timeline-date">TODAY</div>
                         <div className="timeline-content">
-                            <h4>Ready for a new experience</h4>
+                            <h4>Ready for new experiences</h4>
 
                             <div className="resume-button-container">
                                 <DownloadButton/>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import resumePDF from '../images/Olsavsky-Resume.pdf';
+import SvgEye from '../SVG/Eye';
 import './Resume.css';
 
 const ViewButton = () => {
@@ -16,7 +17,12 @@ const ViewButton = () => {
 
     return (
         <div>
-            <button className="view-button" onClick={openModal}>View PDF</button>
+            <button className="view-button" onClick={openModal}>
+                <div>
+                    <SvgEye/> <span>View PDF</span>
+                </div>
+            </button>
+
             <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}

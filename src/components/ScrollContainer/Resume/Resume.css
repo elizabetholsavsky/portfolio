@@ -36,6 +36,16 @@
     margin: 20px 20px 20px 0;
 }
 
+.resume-button-container button div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-button-container button span {
+    line-height: 1;
+}
+
 @media(max-width: 800px) {
     .resume-button-container {
         justify-content: left;
