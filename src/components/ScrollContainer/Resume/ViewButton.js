@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 import resumePDF from '../images/Olsavsky-Resume.pdf';
+import './Resume.css';
 
 const ViewButton = () => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -15,7 +16,7 @@ const ViewButton = () => {
 
     return (
         <div>
-            <button onClick={openModal}>View PDF</button>
+            <button className="view-button" onClick={openModal}>View PDF</button>
             <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
@@ -23,7 +24,7 @@ const ViewButton = () => {
                 shouldCloseOnEsc={true}
                 contentLabel="PDF Modal"
             >
-                <button onClick={closeModal}>Close</button>
+                <button className="close-modal-button" onClick={closeModal}>Close</button>
                 <iframe src={resumePDF} title="PDF Viewer" width="100%" height="100%" />
             </Modal>
         </div>
