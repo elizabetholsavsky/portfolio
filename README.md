@@ -13,10 +13,13 @@
 * [SVG Repo](https://www.svgrepo.com/)
 
 * [SVGR](https://react-svgr.com/) / [SVGR/CLI](https://www.npmjs.com/package/@svgr/cli)
-  * `npm install @svgr/cli --save-dev`
-  * `npx svgr src/components/ScrollContainer/images/icons/{ICON_NAME}.svg --out-dir src/components/ScrollContainer/SVG --icon`
+   * `npm install @svgr/cli --save-dev`
+   * `npx svgr src/components/ScrollContainer/images/icons/{ICON_NAME}.svg --out-dir src/components/ScrollContainer/SVG --icon`
 
  * [EmailJS](https://www.emailjs.com/)
-     * [Docs](https://www.emailjs.com/docs/examples/reactjs/)
-     * `npm i @emailjs/browser`
-     * [Send Email With React (No Backend Required)](https://www.youtube.com/watch?v=I4DKr1JLC50&list=PLIrAIaNuo8lXzzsrlwwc3iLtqIXGH-CdU&index=18) by Zino Trust Academy
+   * [Docs](https://www.emailjs.com/docs/examples/reactjs/)
+   * `npm i @emailjs/browser`
+   * [Send Email With React (No Backend Required)](https://www.youtube.com/watch?v=I4DKr1JLC50&list=PLIrAIaNuo8lXzzsrlwwc3iLtqIXGH-CdU&index=18) by Zino Trust Academy
+
+* [react-modal](https://www.npmjs.com/package/react-modal)
+   * [GitHub](https://github.com/reactjs/react-modal)
