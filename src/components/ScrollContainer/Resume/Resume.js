@@ -1,6 +1,6 @@
 import DownloadButton from "./DownloadButton.js";
 import ViewButton from "./ViewButton.js";
-import Timeline from './Timeline.js'
+import Timeline from './Timeline/Timeline.js'
 import "./Resume.css";
 
 const Resume = () => {

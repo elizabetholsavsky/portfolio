@@ -64,13 +64,21 @@
     display: inline-block;
 }
 
-.timeline-content h5 {
-    font-size: .85rem;
+.timeline-content h4 {
+    font-size: 1.25rem;
+}
+
+.timeline-content h5, p {
+    font-size: 1rem;
 }
 
 .timeline-content h6 {
     padding-bottom: 10px;
-    font-size: .85rem;
+    font-size: 1rem;
+}
+
+.italics {
+    font-style: italic;
 }
 
 @media(max-width: 800px) {
