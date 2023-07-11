@@ -11,6 +11,7 @@
 
 .download-button {
     background-color: var(--action);
+    margin-right: 10px;
 }
 
 .download-button a {
@@ -31,7 +32,6 @@
 .resume-button-container {
     width: 100%;
     display: flex;
-    align-items: flex-start; 
-    justify-content: space-between;
+    justify-content: right;
     margin: 20px 20px 20px 0;
 }

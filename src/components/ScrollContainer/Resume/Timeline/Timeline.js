@@ -1,9 +1,27 @@
+import DownloadButton from "../DownloadButton.js";
+import ViewButton from "../ViewButton.js";
 import './Timeline.css';
+import "../Resume.css";
 
 const Timeline = () => {
     return (
             <div className="timeline-container">
                 <div className='timeline-event'>
+
+                    <div className="timeline-item">
+                        <div className="timeline-dot"></div>
+                        <div className="timeline-date">TODAY</div>
+                        <div className="timeline-content">
+                            <h4>Ready for a new experience</h4>
+
+                            <div className="resume-button-container">
+                                <DownloadButton/>
+                                <ViewButton/>
+                            </div>  
+
+                        </div>
+                    </div>
+
                     <div className="timeline-item">
                         <div className="timeline-dot"></div>
                         <div className="timeline-date">2023</div>
