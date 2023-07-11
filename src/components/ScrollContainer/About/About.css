@@ -1,16 +1,23 @@
-.about-wrapper {
-    width: 85%;
+#about  {
     max-width: 1200px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+}
+
+.about-wrapper {
     display: flex;
     flex-wrap: wrap;
 }
+
 .about-content-container {
     display: flex;
     flex-direction: column;
     width: 60%;
     align-items: flex-start;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 #about h3 {
