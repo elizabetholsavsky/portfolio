@@ -8,6 +8,7 @@
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
     font-size: 1rem;
+    scroll-padding: 5vh 0;
 }
 
 section {
