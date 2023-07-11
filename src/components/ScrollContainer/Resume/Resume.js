@@ -1,5 +1,3 @@
-import DownloadButton from "./DownloadButton.js";
-import ViewButton from "./ViewButton.js";
 import Timeline from './Timeline/Timeline.js'
 import "./Resume.css";
 
@@ -10,10 +8,6 @@ const Resume = () => {
                 <div className="content-text">
                     <h2> Resume </h2>
                     <h3> Join My Journey </h3>
-                        <div className="resume-button-container">
-                            <DownloadButton/>
-                            <ViewButton/>
-                        </div>  
                 </div>
                 <Timeline/>
             </div>

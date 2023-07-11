@@ -30,3 +30,18 @@ footer svg {
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
+.view-button svg {
+    fill: var(--text);
+    width: 40px;
+    min-width: 40px;
+    height: auto;
+    padding-right: 2px;
+}
+
+.download-button svg {
+    stroke: var(--text);
+    width: 40px;
+    min-width: 40px;
+    padding-right: 2px;
+}
