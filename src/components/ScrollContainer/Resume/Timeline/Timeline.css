@@ -40,11 +40,11 @@
 }
 
 .timeline-dot {
-    height: 16px;
-    width: 16px;
+    height: 20px;
+    width: 20px;
     background-color: var(--secondary);
     position: absolute;
-    left: calc(50% - 8px);
+    left: calc(50% - 10px);
     border-radius: 50%;
 }
 
@@ -93,7 +93,7 @@
     }
 
     .timeline-event::before {
-        left: 7px;
+        left: 9px;
     }
 
     .timeline-dot {
