@@ -1,5 +1,6 @@
-import DownloadButton from "./DownloadButton";
-import ViewButton from "./ViewButton";
+import DownloadButton from "./DownloadButton.js";
+import ViewButton from "./ViewButton.js";
+import Timeline from './Timeline.js'
 import "./Resume.css";
 
 const Resume = () => {
@@ -14,6 +15,7 @@ const Resume = () => {
                             <ViewButton/>
                         </div>  
                 </div>
+                <Timeline/>
             </div>
         </section>
 	)
