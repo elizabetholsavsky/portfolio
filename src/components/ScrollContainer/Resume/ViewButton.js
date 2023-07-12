@@ -30,6 +30,7 @@ const ViewButton = () => {
                 shouldCloseOnEsc={true}
                 contentLabel="PDF Modal"
                 ariaHideApp={false}
+                overlayClassName="custom-overlay" 
             >
                 <button className="close-button" onClick={closeModal}>Close</button>
                 <iframe src={resumePDF} title="PDF Viewer" width="100%" height="100%" />
