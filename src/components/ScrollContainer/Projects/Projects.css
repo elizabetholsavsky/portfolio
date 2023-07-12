@@ -131,11 +131,10 @@
     }
 
     .link-buttons-container {
-        height: 50px;
         display: flex;
         flex-wrap: wrap;
         align-items: center; 
-        margin-bottom: 60px;
+        margin-top: 20px;
     }
 
     .deploy-link {
