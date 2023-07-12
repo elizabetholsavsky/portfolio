@@ -15,22 +15,6 @@
     padding-right: 2px;
 }
 
-footer svg:hover {
-    fill: var(--active)
-}
-
-footer svg {
-    margin-top: 10px;
-    fill: #f4f1f6;
-}
-
-.footer-socials-container svg {
-    min-width: 40px;
-    height: auto;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
 .view-button svg {
     fill: var(--text);
     width: 40px;
@@ -55,4 +39,32 @@ footer svg {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* contact */
+
+#contact svg {
+    fill: var(--text);
+    width: 40px;
+    min-width: 40px;
+    height: auto;
+    padding-right: 2px;
+}
+
+/* footer */
+
+footer svg:hover {
+    fill: var(--active)
+}
+
+footer svg {
+    margin-top: 10px;
+    fill: #f4f1f6;
+}
+
+.footer-socials-container svg {
+    min-width: 40px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
