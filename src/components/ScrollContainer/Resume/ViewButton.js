@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import resumePDF from '../images/Olsavsky-Resume.pdf';
 import SvgEye from '../SVG/Eye';
+import SvgClose from '../SVG/Close';
 import './Resume.css';
 
 const ViewButton = () => {
@@ -30,8 +31,18 @@ const ViewButton = () => {
                 shouldCloseOnEsc={true}
                 contentLabel="PDF Modal"
                 ariaHideApp={false}
+                overlayClassName="custom-overlay" 
             >
-                <button className="close-button" onClick={closeModal}>Close</button>
+
+                <div className="modal-button-container">
+                    <button className="close-button" onClick={closeModal}>
+                        <div>
+                            <span>CLOSE</span> <SvgClose/> 
+                        </div>
+                    </button>
+                </div>
+                
+
                 <iframe src={resumePDF} title="PDF Viewer" width="100%" height="100%" />
             </Modal>
         </div>

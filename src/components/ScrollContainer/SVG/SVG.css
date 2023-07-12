@@ -15,11 +15,14 @@
     padding-right: 2px;
 }
 
-.view-button svg {
+.view-button svg, .close-button svg {
     fill: var(--text);
     width: 40px;
     min-width: 40px;
     height: auto;
+}
+
+.view-button svg {
     padding-right: 2px;
 }
 
@@ -28,17 +31,14 @@
 }
 
 .download-button svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     stroke: var(--text);
     width: 40px;
     min-width: 40px;
     padding-right: 2px;
     fill:none;
-}
-
-.download-button svg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* contact */
