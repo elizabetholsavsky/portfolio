@@ -39,9 +39,20 @@ footer svg {
     padding-right: 2px;
 }
 
+.timeline-dot svg {
+    fill: var(--text);
+}
+
 .download-button svg {
     stroke: var(--text);
     width: 40px;
     min-width: 40px;
     padding-right: 2px;
+    fill:none;
+}
+
+.download-button svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

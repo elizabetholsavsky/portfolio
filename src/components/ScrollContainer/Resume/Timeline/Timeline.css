@@ -1,6 +1,6 @@
 .timeline-container {
     margin: auto;
-    margin: 60px 0 60px 0;
+    margin: 30px 0 200px 0;
     height: 100%;
 }
 
@@ -14,7 +14,7 @@
 .timeline-event::before {
     content: '';
     position: absolute;
-    width: 2px;
+    width: 4px;
     height: 100%;
     background-color: var(--text);
     left: calc(50% - 1px)
@@ -31,21 +31,26 @@
 }
 
 .timeline-item:nth-child(odd) {
-    padding-right: calc(50% + 30px);
+    padding-right: calc(50% + 40px);
     text-align: right;
 }
 
 .timeline-item:nth-child(even) {
-    padding-left: calc(50% + 30px);
+    padding-left: calc(50% + 40px);
 }
 
 .timeline-dot {
-    height: 20px;
-    width: 20px;
+    height: 60px;
+    width: 60px;
     background-color: var(--secondary);
     position: absolute;
-    left: calc(50% - 10px);
+    left: 50%; 
+    transform: translate(-50%);
     border-radius: 50%;
+    border: 4px solid var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .timeline-content {
@@ -60,6 +65,7 @@
     border-radius: 20px;
     font-size: 1rem;
     padding: 5px 10px 5px 10px;
+    margin-top: 10px;
     margin-bottom: 10px;
     display: inline-block;
 }
@@ -82,6 +88,10 @@
     font-style: italic;
 }
 
+.timeline-dot:last-of-type {
+    background-color: var(--action);
+}
+
 @media(max-width: 800px) {
     .timeline-item:nth-child(odd) {
         padding-right: 0;
@@ -90,14 +100,65 @@
 
     .timeline-item:nth-child(odd),
     .timeline-item:nth-child(even) {
-        padding-left: 37px;
+        padding-left: 40px;
     }
 
     .timeline-event::before {
-        left: 9px;
+        left: 25px;
     }
 
     .timeline-dot {
-        left: 0;
+        left: 26px;
+    }
+
+    .timeline-date, .timeline-content {
+        margin-left: 30px;
+    }
+
+    .timeline-content {
+        margin-bottom: 50px;
+    }
+
+    .resume-button-container {
+        justify-content: left;
+    }
+}
+
+@media(max-width: 350px) {
+    .timeline-event::before, .timeline-dot svg, .timeline-dot {
+        display: none;
+    }
+
+    .timeline-date, .timeline-content {
+        margin-left: 0;
+    }
+
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 0;
+    }
+
+    .timeline-item {
+        margin-bottom: 0;
+    }
+
+    .timeline-item .timeline-content {
+        padding: 15px;
+        margin: 0 0 30px 0;
+        width: 100%;
+    }
+
+    .download-button {
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+
+    .view-button {
+        display: none;
+    }
+
+    .resume-button-container {
+    margin: 0;
+    justify-content: center;
     }
 }
