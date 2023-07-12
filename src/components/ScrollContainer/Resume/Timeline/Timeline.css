@@ -124,7 +124,7 @@
     }
 }
 
-@media(max-width: 350px) {
+@media(max-width: 375px) {
     .timeline-event::before, .timeline-dot svg, .timeline-dot {
         display: none;
     }
@@ -160,5 +160,13 @@
     .resume-button-container {
     margin: 0;
     justify-content: center;
+    }
+
+    .timeline-content {
+        margin-bottom: 20px;
+    }
+
+    .timeline-container {
+        margin-bottom: 30px;
     }
 }
