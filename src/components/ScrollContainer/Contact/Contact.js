@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
+import SvgEmail from "../SVG/Email.js"
 
 const Contact = () => {
     const form = useRef();
@@ -125,10 +126,15 @@ const Contact = () => {
 
                             <label htmlFor="message">Message</label>
                             <textarea name="message" id="message" autoComplete="off"></textarea>
-
-                            <button className="submit-button" type="submit">
-                            Send
-                            </button>
+                            
+                            <div className="submit-button-container">
+                                <button className="submit-button" type="submit">
+                                    <div>
+                                        <SvgEmail/> <span>Send</span>
+                                    </div>
+                                </button>
+                            </div>
+                            
 
                         </form>
                     </div>

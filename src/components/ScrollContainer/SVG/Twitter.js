@@ -4,8 +4,8 @@ import "./SVG.css"
 const SvgTwitter = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="1em"
-    height="1em"
+    width="40px"
+    height="40px"
     fill="none"
     viewBox="0 0 24 24"
     {...props}
