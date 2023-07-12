@@ -36,7 +36,12 @@ const Project = ({
                         ))}
                     </div>
                 </div>
-                
+            </div>
+
+            <div className='project-img-container'>
+                <img src={img} alt={title}/>
+            </div>
+
                 <div className="link-buttons-container">
 
                     <button className="deploy-link" onClick={() => openLink(deployLink)} rel="noreferrer">
@@ -61,12 +66,6 @@ const Project = ({
                     </button>
 
                 </div>
-            </div>
-
-            <div className='project-img-container'>
-                <img src={img} alt={title}/>
-            </div>
-            
         </div>
     )
 }
