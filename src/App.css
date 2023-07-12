@@ -16,7 +16,7 @@
     --secondary: rgba(141, 141, 190, 1);
     --secondary-light: rgba(141, 141, 190, .3);
     --action: #ffcb9a;
-    --active: rgb(236, 245, 164);
+    --active: #ffcb9a;
     --font-size: 1.25rem;
 }
 
