@@ -50,7 +50,7 @@
 }
 
 .profile-picture-container img {
-    border: 10px solid var(--secondary);
+    border: 15px solid var(--secondary-light);
     max-width: 60%;
     min-width: 200px;
     height: auto;
