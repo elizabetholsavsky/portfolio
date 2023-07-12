@@ -70,7 +70,7 @@ form, input, textarea {
 }
 
 input, textarea {
-    border: 2px solid var(--text);
+    border: none;
 }
 
 textarea {
