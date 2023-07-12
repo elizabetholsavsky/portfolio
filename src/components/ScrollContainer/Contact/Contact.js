@@ -22,7 +22,7 @@ const Contact = () => {
 
     const nameInput = form.current.user_name;
     if (nameInput.value.trim() === "") {
-        setNameError("Please enter your name.");
+        setNameError("Enter your name");
         return;
     } else {
         setNameError("");
@@ -54,7 +54,7 @@ const Contact = () => {
         } else if (fieldName === "user_email") {
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!e.target.value.match(emailRegex)) {
-                setEmailError("Please enter a valid email address.");
+                setEmailError("Enter a valid email address");
             } else {
                 setEmailError("");
             }

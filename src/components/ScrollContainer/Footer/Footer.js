@@ -29,9 +29,10 @@ const Footer = () => {
                         <a href="https://elizabetholsavsky.hashnode.dev/" target="_blank" rel="noreferrer"><SvgHashnode title="Hashnode"/></a>
                         <a href="mailto:elizabetholsavsky@gmail.com"title="Email"><SvgEmail/></a>   
                 </div>
-                
-                <p>© 2023 Elizabeth Olsavsky</p>
-                <p className='copyright'>elizabetholsavsky@gmail.com</p>
+            
+                <p className="source-code"><a href="https://github.com/elizabetholsavsky/portfolio" target="_blank" rel="noreferrer">Portfolio Code</a></p>
+                <p className='copyright'>© 2023 Elizabeth Olsavsky</p>
+                <p className='footer-email'>elizabetholsavsky@gmail.com</p>
             </section>
         </footer>
     )

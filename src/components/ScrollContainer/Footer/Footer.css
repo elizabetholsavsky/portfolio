@@ -14,8 +14,28 @@ footer {
     color: #f4f1f6;
 }
 
-.copyright {
+.footer-email {
     padding-bottom: 20px;
+}
+
+.copyright, .footer-email {
+    font-size: .9rem;
+}
+
+.source-code a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--text);
+    font-weight: 600;
+    background-color: var(--inverse-text);
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    font-size: .9rem;
+    margin: 10px;
+}
+
+.source-code {
+    margin: 10px;
 }
 
 @media(max-width: 375px) {

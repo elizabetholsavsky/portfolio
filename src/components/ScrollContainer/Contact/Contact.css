@@ -13,7 +13,7 @@
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 30px;
 }
 
@@ -29,7 +29,7 @@
     margin: 0;  
 }
 
-.contact-message p{
+.contact-message p {
     max-width: 500px;
     font-size: 1.5rem;
     margin-bottom: 2rem;
@@ -135,6 +135,22 @@ textarea {
 
     .form-card {
         margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .email-note {
+        font-size: .75rem;
+    }
+    .contact-message p {
+        font-size: 1rem;
+    }
+    .message-container {
+        margin: 0;
+        padding: 0;
+    }
+    .error.show {
+    font-size: .6rem;
     }
 }
 
