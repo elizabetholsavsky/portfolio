@@ -7,6 +7,10 @@
     margin: 10px;
 }
 
+.download-button, .view-button {
+    width: 200px;
+}
+
 .download-button {
     background-color: var(--action);
 }
