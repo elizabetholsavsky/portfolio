@@ -22,10 +22,10 @@ const Footer = () => {
                 </a> 
 
                 <div className="footer-socials-container">
-                        <a href="https://www.linkedin.com/in/elizabetholsavsky/" target="_blank"><SvgLinkedin title="LinkedIn"/></a>
-                        <a href="https://github.com/elizabetholsavsky" target="_blank"><SvgGithub title="GitHub"/></a>
-                        <a href="https://twitter.com/elizavsky" target="_blank"><SvgTwitter title="Twitter"/></a>
-                        <a href="https://elizabetholsavsky.hashnode.dev/" target="_blank"><SvgHashnode title="Hashnode"/></a>
+                        <a href="https://www.linkedin.com/in/elizabetholsavsky/" target="_blank" rel="noreferrer"><SvgLinkedin title="LinkedIn"/></a>
+                        <a href="https://github.com/elizabetholsavsky" target="_blank" rel="noreferrer"><SvgGithub title="GitHub"/></a>
+                        <a href="https://twitter.com/elizavsky" target="_blank" rel="noreferrer"><SvgTwitter title="Twitter"/></a>
+                        <a href="https://elizabetholsavsky.hashnode.dev/" target="_blank" rel="noreferrer"><SvgHashnode title="Hashnode"/></a>
                 </div>
 
                 <h3 className='copyright'>© 2023 Elizabeth Olsavsky</h3>
