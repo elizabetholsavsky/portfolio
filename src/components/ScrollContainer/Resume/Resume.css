@@ -1,17 +1,14 @@
 .download-button, .view-button, .close-button {
-    padding: 15px;
+    height: 72px;
+    padding: 0 15px 0 15px;
     font-size: 1rem;
     font-weight: bold;
     color: var(--text);
-}
-
-.download-button, .view-button button {
-    margin: 10px, 10px, 10px, 0;
+    margin: 10px;
 }
 
 .download-button {
     background-color: var(--action);
-    margin-right: 10px;
 }
 
 .download-button a {
@@ -33,6 +30,7 @@
     width: 100%;
     display: flex;
     justify-content: right;
+    flex-wrap: wrap;
     margin: 20px 20px 20px 0;
 }
 
@@ -44,10 +42,4 @@
 
 .resume-button-container button span {
     line-height: 1;
-}
-
-@media(max-width: 800px) {
-    .resume-button-container {
-        justify-content: left;
-    }
 }

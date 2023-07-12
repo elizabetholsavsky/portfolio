@@ -20,8 +20,7 @@ const Timeline = () => {
                             <h4>Ready for new experiences</h4>
 
                             <div className="resume-button-container">
-                                <DownloadButton/>
-                                <ViewButton/>
+                                <DownloadButton/> <ViewButton/>
                             </div>  
 
                         </div>

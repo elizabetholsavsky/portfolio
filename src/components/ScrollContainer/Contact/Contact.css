@@ -98,3 +98,9 @@ textarea {
         margin-bottom: 30px;
     }
 }
+
+@media (max-width: 415px) {
+    .submit-button {
+        width: 100%;
+    }
+}
