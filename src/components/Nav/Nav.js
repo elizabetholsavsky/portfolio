@@ -29,19 +29,21 @@ const Nav = () => {
     const observer = new IntersectionObserver(handleScroll, {
         rootMargin: '-50% 0% -50% 0%', 
     });
-
+    
+    const sectionRef = sectionRefs.current;
     const sections = ['about', 'projects', 'resume', 'contact'];
     sections.forEach((sectionId) => {
         const section = document.getElementById(sectionId);
         if (section) {
+            
             observer.observe(section);
-            sectionRefs.current[sectionId] = section;
+            sectionRef[sectionId] = section;
         }
     });
 
     return () => {
         sections.forEach((sectionId) => {
-            observer.unobserve(sectionRefs.current[sectionId]);
+            observer.unobserve(sectionRef[sectionId]);
         });
     };
     }, []);

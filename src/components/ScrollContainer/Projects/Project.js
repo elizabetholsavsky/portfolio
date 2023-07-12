@@ -8,6 +8,8 @@ const Project = ({
     title, 
     url,
     description,
+    demo_username,
+    demo_password,
     tags,
     deployLink,
     githubLink,
@@ -35,8 +37,22 @@ const Project = ({
                         <span className="tags" key={index}>{tag}</span>
                         ))}
                     </div>
+
+                    {demo_username && demo_password && (
+                    <>
+                        <p className="demo-tag"><span className="bold">DEMO Username: </span>{demo_username}</p>
+                        <p className="demo-tag"><span className="bold">Password: </span>{demo_password}</p>
+                    </>
+                    )}
+                    
                 </div>
-                
+
+            </div>
+
+            <div className='project-img-container'>
+                <img src={img} alt={title}/>
+            </div>
+
                 <div className="link-buttons-container">
 
                     <button className="deploy-link" onClick={() => openLink(deployLink)} rel="noreferrer">
@@ -61,12 +77,6 @@ const Project = ({
                     </button>
 
                 </div>
-            </div>
-
-            <div className='project-img-container'>
-                <img src={img} alt={title}/>
-            </div>
-            
         </div>
     )
 }
