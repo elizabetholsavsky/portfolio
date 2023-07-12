@@ -61,6 +61,21 @@ button:hover {
     transform: scale(1.03);
 }
 
+/* custom-scroll-bar */
+
+::-webkit-scrollbar {
+    width: 2em;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--secondary-light);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--secondary);
+    /* border: 2px solid var(--text); */
+}
+
 @media (max-width: 1000px) {
     .content-container {
         width: 95%;
