@@ -82,15 +82,20 @@ const Contact = () => {
 
                 <div className="form-card">
                     <div className="message-container">
-                        <h4>Add me</h4>
-                        <br/>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut voluptates laudantium neque rerum veritatis rem deserunt error cumque sapiente! Distinctio temporibus vitae error quia ut et similique! Consectetur, velit porro.</p>
+                        <div className="contact-message">
+                            <p className="bold">Enthusiastically seeking...</p>
+                            <p>● new job opportunities</p>
+                            <p>● mentorship</p>
+                            <p>● freelance work</p>
+                            <p>● open source collaboration</p>
+                            <p>● coding events</p>
+                        </div>
                     </div>
 
                     <div className="form-container">
                         <form ref={form} onSubmit={sendEmail}>
 
-                            <h4>Send a message</h4>
+                            <h4 className="email-note">Email <span className="email"><a href="mailto:elizabetholsavsky@gmail.com">elizabetholsavsky@gmail.com</a></span> or send me a note below</h4>
                             <br/>
                             <div className="input-container">
                                 <label htmlFor="name">Name</label>
