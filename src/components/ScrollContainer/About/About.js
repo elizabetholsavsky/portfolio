@@ -5,7 +5,7 @@ import SvgGithub from '../SVG/Github';
 import SvgHashnode from '../SVG/Hashnode';
 import SvgLinkedin from '../SVG/Linkedin';
 import SvgTwitter from '../SVG/Twitter';
-
+import SvgEmail from '../SVG/Email';
 
 const About = () => {
     return (
@@ -24,6 +24,7 @@ const About = () => {
                             <a href="https://github.com/elizabetholsavsky" target="_blank" rel="noreferrer"><SvgGithub title="Github"/></a>
                             <a href="https://twitter.com/elizavsky" target="_blank" rel="noreferrer"><SvgTwitter title="Twitter"/></a>
                             <a href="https://elizabetholsavsky.hashnode.dev/" target="_blank" rel="noreferrer"><SvgHashnode title="Hashnode"/></a>
+                            <a href="mailto:elizabetholsavsky@gmail.com"title="Email"><SvgEmail/></a>   
                     </div>
 
                     <div className="about-card">

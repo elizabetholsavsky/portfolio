@@ -90,7 +90,7 @@ const Contact = () => {
                     <div className="form-container">
                         <form ref={form} onSubmit={sendEmail}>
 
-                            <h4>Send a message</h4>
+                            <h4 className="email-note">Email <span className="email"><a href="mailto:elizabetholsavsky@gmail.com">elizabetholsavsky@gmail.com</a></span> or send me a note below</h4>
                             <br/>
                             <div className="input-container">
                                 <label htmlFor="name">Name</label>
