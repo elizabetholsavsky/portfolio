@@ -17,6 +17,8 @@ header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0;
+    position: relative; 
+    z-index: 9999; 
 }
 
 .nav-container {
@@ -33,6 +35,8 @@ header {
     display: flex;
     align-items: center;
     font-size: 1.25rem;
+    opacity: 1;
+    z-index: 9999;
 }
 
 .name, .nav-link {

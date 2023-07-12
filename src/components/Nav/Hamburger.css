@@ -58,7 +58,8 @@
         width: 100vw;
         overflow-x: hidden;
         text-align: center;
-        /* transition: 0.3s; */
+        z-index: 9999;
+        transition: 0.3s;
     }
 
     .nav-menu.active {

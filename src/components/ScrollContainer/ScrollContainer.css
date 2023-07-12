@@ -9,6 +9,7 @@
     scroll-snap-type: y mandatory;
     font-size: 1rem;
     scroll-padding: 5vh 0;
+    z-index: -1;
 }
 
 section {
@@ -29,6 +30,7 @@ section {
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
+    z-index: 1; 
 }
 
 .content-text {
