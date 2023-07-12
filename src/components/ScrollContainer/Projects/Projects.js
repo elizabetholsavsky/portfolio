@@ -14,15 +14,6 @@ const Projects = () => {
 
                 <div className="projects">
                     {projectInfo.map( (projectInfo, index) => {
-                    const {
-                        title, 
-                        url,
-                        description,
-                        tags,
-                        deployLink,
-                        githubLink,
-                        vscodeLink,
-                        img, id} = projectInfo
                     return <Project {...projectInfo} key={projectInfo.id} />
                     })} 
                 </div>
