@@ -1,3 +1,7 @@
+#about h5 svg {
+    stroke: var(--text);
+}
+
 .socials-container svg {
     fill: var(--text);
     width: 40px;

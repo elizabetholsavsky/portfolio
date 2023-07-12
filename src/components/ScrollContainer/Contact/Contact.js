@@ -82,9 +82,14 @@ const Contact = () => {
 
                 <div className="form-card">
                     <div className="message-container">
-                        <h4>Add me</h4>
-                        <br/>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut voluptates laudantium neque rerum veritatis rem deserunt error cumque sapiente! Distinctio temporibus vitae error quia ut et similique! Consectetur, velit porro.</p>
+                        <div className="contact-message">
+                            <p className="bold">Enthusiastically seeking...</p>
+                            <p>● new job opportunities</p>
+                            <p>● mentorship</p>
+                            <p>● freelance work</p>
+                            <p>● open source collaboration</p>
+                            <p>● coding events</p>
+                        </div>
                     </div>
 
                     <div className="form-container">

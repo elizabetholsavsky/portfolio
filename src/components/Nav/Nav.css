@@ -4,6 +4,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-width: 280px;
 }
 
 .navbar {
@@ -23,7 +24,7 @@ header {
 
 .nav-container {
     width: 100%;
-    max-width: 1210px;
+    max-width: 1250px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -46,6 +47,7 @@ header {
 
 h1 {
     font-size: 1.5rem;
+    margin-left: 10px;
 }
 
 .nav-link {
