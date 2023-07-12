@@ -50,6 +50,20 @@ section {
     font-weight: bold;
 }
 
+/* universal button hover styles */
+
+button {
+    transition: filter 0.3s ease;
+}
+
+button:hover {
+    filter: brightness(80%);
+}
+
+button:focus {
+    outline: none;
+}
+
 @media (max-width: 1000px) {
     .content-container {
         width: 95%;
