@@ -17,3 +17,9 @@ footer {
 .copyright {
     padding-bottom: 20px;
 }
+
+@media(max-width: 375px) {
+    footer h3 {
+        font-size: 1rem;
+    }
+}

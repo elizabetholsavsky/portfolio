@@ -29,8 +29,6 @@ const About = () => {
                     <div className="about-card">
                         <div className="about-text-container">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos fugiat reiciendis aperiam, voluptatum eveniet quisquam quibusdam explicabo corporis, vero, non omnis consequatur numquam cum porro? Hic repellat officia iste!</p>
-                            <br/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos fugiat reiciendis aperiam, voluptatum eveniet quisquam quibusdam explicabo corporis, vero, non omnis consequatur numquam cum porro? Hic repellat officia iste!</p>
                         </div>
                     </div>
                 </div>

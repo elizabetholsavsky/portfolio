@@ -47,3 +47,9 @@
 .resume-button-container button span {
     line-height: 1;
 }
+
+@media(max-width: 375px) {
+    #resume .content-text {
+        padding-bottom: 0;
+    }
+}
