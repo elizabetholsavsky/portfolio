@@ -2,6 +2,9 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import SvgEmail from "../SVG/Email.js"
+import SvgAddme from "../SVG/Addme";
+import SvgFreelance from "../SVG/Freelance";
+import SvgGroup from "../SVG/Group";
 
 const Contact = () => {
     const form = useRef();
@@ -83,10 +86,23 @@ const Contact = () => {
                 <div className="form-card">
                     <div className="message-container">
                         <div className="contact-message">
-                            <p className="bold">Enthusiastically seeking...</p>
-                            <p>● new job opportunities</p>
-                            <p>● freelance projects & contract work</p>
-                            <p>● open source collaboration</p>
+                            <p className="seeking-title">Enthusiastically seeking...</p>
+
+                                <div className="seeking-container">
+                                    <div className="contact-dot"><SvgAddme/></div> 
+                                    <p>new job opportunities</p>
+                                </div>
+
+                                <div className="seeking-container">
+                                    <div className="contact-dot"><SvgFreelance/></div> 
+                                    <p>freelance & contract work</p>
+                                </div>
+
+                                <div className="seeking-container">
+                                    <div className="contact-dot"><SvgGroup/></div> 
+                                    <p>open source collaboration</p>
+                                </div>
+                            
                         </div>
                     </div>
 
@@ -138,7 +154,6 @@ const Contact = () => {
                                 </button>
                             </div>
                             
-
                         </form>
                     </div>
                 </div>

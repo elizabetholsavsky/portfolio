@@ -32,8 +32,46 @@
 .contact-message p {
     max-width: 500px;
     font-size: 1.5rem;
-    margin-bottom: 2rem;
 }
+
+.contact-dot {
+    height: 60px;
+    width: 60px;
+    min-width: 60px;
+    background-color: var(--secondary);
+    left: 50%; 
+    border-radius: 50%;
+    border: 4px solid var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seeking-title {
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.seeking-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.seeking-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seeking-container p {
+    line-height: 1;
+    font-size: 1.25rem;
+    margin-left: 10px;
+}
+
+/* FORM */
 
 .form-container {
     display: flex;
@@ -157,5 +195,8 @@ textarea {
 @media (max-width: 415px) {
     .submit-button {
         width: 100%;
+    }
+    .form-card {
+    padding: 20px;
     }
 }

@@ -30,7 +30,7 @@ const Footer = () => {
                         <a href="mailto:elizabetholsavsky@gmail.com"title="Email"><SvgEmail/></a>   
                 </div>
             
-                <p className="source-code"><a href="https://github.com/elizabetholsavsky/portfolio" target="_blank" rel="noreferrer">Portfolio Code</a></p>
+                <p className="source-code"><a href="https://github.com/elizabetholsavsky/portfolio" target="_blank" rel="noreferrer">Portfolio Repo</a></p>
                 <p className='copyright'>© 2023 Elizabeth Olsavsky</p>
                 <p className='footer-email'>elizabetholsavsky@gmail.com</p>
             </section>

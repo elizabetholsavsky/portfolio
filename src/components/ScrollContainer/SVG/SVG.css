@@ -29,8 +29,10 @@
     padding-right: 2px;
 }
 
-.timeline-dot svg {
+.timeline-dot svg, .contact-dot svg {
     fill: var(--text);
+    width: 40px;
+    height: 40px;
 }
 
 .download-button svg {
