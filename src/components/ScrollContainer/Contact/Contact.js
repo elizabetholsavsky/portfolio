@@ -1,15 +1,18 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import ReactModal from "react-modal";
 import "./Contact.css";
 import SvgEmail from "../SVG/Email.js"
 import SvgAddme from "../SVG/Addme";
 import SvgFreelance from "../SVG/Freelance";
 import SvgGroup from "../SVG/Group";
+import SvgClose from "../SVG/Close";
 
 const Contact = () => {
     const form = useRef();
     const [emailError, setEmailError] = useState("");
     const [nameError, setNameError] = useState("");
+    const [modalIsOpen, setModalIsOpen] = useState(false);
 
     const sendEmail = (e) => {
     e.preventDefault();
@@ -41,6 +44,7 @@ const Contact = () => {
         .then(
             (result) => {
             console.log(result.text);
+            setModalIsOpen(true);
             },
             (error) => {
             console.log(error.text);
@@ -74,8 +78,36 @@ const Contact = () => {
         }
     };
 
+    const closeModal = () => {
+        setModalIsOpen(false);
+    };
+
     return (
         <section aria-label="contact" id="contact" className="contact-section">
+            
+            <ReactModal
+                isOpen={modalIsOpen}
+                onRequestClose={closeModal}
+                contentLabel="Message Sent Modal"
+                className="message-modal"
+                overlayClassName="custom-overlay"
+                shouldCloseOnOverlayClick={true}
+                shouldCloseOnEsc={true}
+                >
+                <div onClick={closeModal} className="modal-overlay" /> 
+                <h2>Your message has been sent!</h2>
+                <p>Thank you for getting in touch. Anticipate a prompt response from <span className="email">elizabetholsavsky@gmail.com</span>.</p>
+
+                <div className="modal-button-container">
+                    <button className="contact-close-button" onClick={closeModal}>
+                        <div>
+                            <span>CLOSE</span> <SvgClose/> 
+                        </div>
+                    </button>
+                </div>
+
+            </ReactModal>
+
             <div className="content-container">
 
                 <div className="content-text">
