@@ -85,10 +85,8 @@ const Contact = () => {
                         <div className="contact-message">
                             <p className="bold">Enthusiastically seeking...</p>
                             <p>● new job opportunities</p>
-                            <p>● mentorship</p>
-                            <p>● freelance work</p>
+                            <p>● freelance projects & contract work</p>
                             <p>● open source collaboration</p>
-                            <p>● coding events</p>
                         </div>
                     </div>
 
