@@ -33,7 +33,8 @@ const Timeline = () => {
                             <h4>Full Stack Web Development Certificate</h4>
                             <h5>UT Austin Boot Camps</h5>
                             <h6>Jan. 2023 - Jul. 2023</h6>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>● collaborative teamwork</p>
+                            <p>● git version control</p>
                         </div>
                     </div>
                 
@@ -45,7 +46,8 @@ const Timeline = () => {
                             <h4>Classroom Educator</h4>
                             <h5>Del Valle ISD</h5>
                             <h6>Aug. 2015 - Aug. 2023</h6>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>● leadership & mentorship roles</p>
+                            <p>● Google Certified Educator</p>
                         </div>
                     </div>
 
@@ -57,7 +59,6 @@ const Timeline = () => {
                             <h4>Master of Science in Curriculum & Instruction</h4>
                             <h5>Youngstown State University</h5>
                             <h6>Aug. 2012 - Aug. 2014</h6>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
 
@@ -68,7 +69,8 @@ const Timeline = () => {
                             <h4>Graduate Assistant</h4>
                             <h5>Youngstown State University</h5>
                             <h6>Aug. 2012 - Aug. 2014</h6>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>● academic and action research</p>
+                            <p>● public speaking</p>
                         </div>
                     </div>
 
@@ -77,10 +79,8 @@ const Timeline = () => {
                         <div className="timeline-date">2011</div>
                         <div className="timeline-content">
                             <h4>Bachelor of Science in Early Childhood Education</h4>
-                            <h5 className='italics'>summa cum laude</h5>
                             <h5>Cleveland State University</h5>
-                            <h6>Aug. 2008 - Dec. 2011</h6>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>● academic and action research</p>
                         </div>
                         <div className="timeline-dot"><a href="#resume"><SvgUp title="Scroll to top of timeline"/></a></div>
                     </div>
