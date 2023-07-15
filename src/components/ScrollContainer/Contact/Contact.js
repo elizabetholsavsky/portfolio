@@ -57,7 +57,7 @@ const Contact = () => {
     const handleBlur = (e) => {
         const fieldName = e.target.name;
         if (fieldName === "user_name" && e.target.value.trim() === "") {
-            setNameError("Please enter your name.");
+            setNameError("Please enter your name");
         } else if (fieldName === "user_email") {
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!e.target.value.match(emailRegex)) {
@@ -122,7 +122,7 @@ const Contact = () => {
 
                                 <div className="seeking-container">
                                     <div className="contact-dot"><SvgAddme/></div> 
-                                    <p>new job opportunities</p>
+                                    <p>new career opportunities</p>
                                 </div>
 
                                 <div className="seeking-container">

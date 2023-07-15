@@ -30,7 +30,7 @@
     margin-bottom: 0;
 }
 
-.timeline-item:nth-child(odd) {
+.timeline-item:nth-child(odd):not(.timeline-bullets) {
     padding-right: calc(50% + 40px);
     text-align: right;
 }
@@ -90,6 +90,10 @@
 
 .timeline-dot:last-of-type {
     background-color: var(--action);
+}
+
+.timeline-bullets {
+    text-align: left;
 }
 
 @media(max-width: 800px) {
