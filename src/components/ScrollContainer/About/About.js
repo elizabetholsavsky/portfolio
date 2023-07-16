@@ -38,7 +38,7 @@ const About = () => {
                     <div className="about-card">
                         <div className="about-text-container">
                             <p>
-                                I design and build intuitive and accessible web applications. As a former educator, my passion and commitment to learning remains steadfast. This unique background allows me to approach coding challenges with an empathetic and user-centric perspective, ensuring that my solutions not only functional but provide a seamless and empowering experience for users of all backgrounds.
+                                I design and build intuitive and accessible web applications. As a former educator, my passion and commitment to learning remains steadfast. This unique background allows me to approach challenges with an empathetic and user-centric perspective, ensuring that my solutions not only functional but provide an up-to-date, seamless, and empowering experience for all users.
                             </p>
                         </div>
                     </div>
