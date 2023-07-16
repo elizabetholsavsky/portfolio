@@ -33,10 +33,8 @@ const Timeline = () => {
                             <h4>Full Stack Web Development Certificate</h4>
                             <h5>UT Austin Boot Camps</h5>
                             <h6>Jan. 2023 - Jul. 2023</h6>
-                                <div className="timeline-bullets">
                                     <p>● collaborative teamwork</p>
                                     <p>● git version control</p>
-                                </div>
                         </div>
                     </div>
                 
