@@ -17,6 +17,14 @@ const About = () => {
                         <h3>Elizabeth Olsavsky</h3>
                         <h4>Web Developer</h4>
                         <h5><SvgMapMarker/>Austin, TX</h5>
+                        <p className='about-tags-container'>
+                            <span className='about-tags'>JavaScript</span>
+                            <span className='about-tags'>Node</span>
+                            <span className='about-tags'>React</span>
+                            <span className='about-tags'>Express</span>
+                            <span className='about-tags'>MySQL</span>
+                            <span className='about-tags'>MongoDB</span>
+                        </p>
                     </div>
 
                     <div className="socials-container">

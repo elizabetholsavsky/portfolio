@@ -21,7 +21,7 @@ export const projectInfo = [
         title:"Weather Dashboard",
         url:"https://elizabetholsavsky.github.io/weather-dashboard/",
         description: "Retrieves real-time and forecasted weather conditions for the user's city by accessing the Open Weather API. Previous searches are stored in local storage and can be accessed again via dynamically-generated buttons.",
-        tags: ["JavaScript", "Bulma", "CSS", "Server-Side", "API" ],
+        tags: ["JavaScript", "Bulma", "CSS", "Server-Side API" ],
         deployLink:"https://elizabetholsavsky.github.io/weather-dashboard/",
         githubLink:"https://github.com/elizabetholsavsky/weather-dashboard",
         vscodeLink:"https://vscode.dev/github/elizabetholsavsky/weather-dashboard",
