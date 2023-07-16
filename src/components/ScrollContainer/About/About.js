@@ -17,6 +17,14 @@ const About = () => {
                         <h3>Elizabeth Olsavsky</h3>
                         <h4>Web Developer</h4>
                         <h5><SvgMapMarker/>Austin, TX</h5>
+                        <p className='about-tags-container'>
+                            <span className='about-tags'>JavaScript</span>
+                            <span className='about-tags'>Node</span>
+                            <span className='about-tags'>React</span>
+                            <span className='about-tags'>Express</span>
+                            <span className='about-tags'>MySQL</span>
+                            <span className='about-tags'>MongoDB</span>
+                        </p>
                     </div>
 
                     <div className="socials-container">
@@ -29,7 +37,9 @@ const About = () => {
 
                     <div className="about-card">
                         <div className="about-text-container">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos fugiat reiciendis aperiam, voluptatum eveniet quisquam quibusdam explicabo corporis, vero, non omnis consequatur numquam cum porro? Hic repellat officia iste!</p>
+                            <p>
+                                I design and build intuitive and accessible web applications. As a former educator, my passion and commitment to learning remains steadfast. This unique background allows me to approach coding challenges with an empathetic and user-centric perspective, ensuring that my solutions not only functional but provide a seamless and empowering experience for users of all backgrounds.
+                            </p>
                         </div>
                     </div>
                 </div>

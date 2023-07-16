@@ -32,11 +32,19 @@
     align-items: flex-start;
 }
 
-.about-text-container {
+.about-tags {
+    background-color: var(--text);
+    color: var(--inverse-text);
+    padding: 5px 10px 5px 10px;
+    margin: 10px 10px 0 0;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.about-tags-container {
+    margin: 5px 10px 5px 0;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
     width: 100%;
 }
 
