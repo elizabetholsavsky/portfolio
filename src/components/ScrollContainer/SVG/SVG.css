@@ -1,3 +1,9 @@
+.dark-mode svg {
+    stroke: var(--inverse-text);
+    width: 30px;
+    height: auto;
+}
+
 #about h5 svg {
     stroke: var(--text);
 }

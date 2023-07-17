@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import DarkMode from './DarkMode';
 import './Nav.css';
 import './Hamburger.css';
 import '../../App.css';
@@ -88,6 +89,7 @@ const Nav = () => {
                 </div>
 
                 <ul className={`nav-menu ${menuActive ? 'active' : 'nav-menu'}`}>
+                    <li><DarkMode/></li>
                     <li className="nav-item">
                         <a
                             href="#about"
