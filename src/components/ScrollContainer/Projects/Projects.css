@@ -85,6 +85,7 @@
     padding: 15px;
     font-size: 1rem;
     font-weight: bold;
+    color: var(--text);
 }   
 
 .link-buttons-container button div {

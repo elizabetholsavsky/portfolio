@@ -60,7 +60,7 @@
 
 .timeline-date {
     font-weight: bold;
-    background-color: var(--primary);
+    background-color: var(--text);
     color: var(--inverse-text);
     border-radius: 20px;
     font-size: 1rem;
