@@ -62,12 +62,14 @@
     padding-right: 2px;
 }
 
-/* footer */
+/* hovers */
 
+.socials-container svg:hover, 
 footer svg:hover {
     fill: var(--active)
 }
 
+/* footer */
 footer svg {
     margin-top: 10px;
     fill: #f4f1f6;
@@ -85,5 +87,12 @@ footer svg {
         width: 30px;
         height: auto;
         margin: 10px;
+    }
+}
+
+@media(max-width: 400px) {
+    .socials-container svg:hover, 
+    footer svg:hover {
+    fill: var(--text)
     }
 }

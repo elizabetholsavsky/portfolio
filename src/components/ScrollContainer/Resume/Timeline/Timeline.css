@@ -92,6 +92,10 @@
     background-color: var(--action);
 }
 
+.timeline-dot:last-of-type:hover {
+    filter: brightness(115%);
+}
+
 @media(max-width: 800px) {
     .timeline-item:nth-child(odd) {
         padding-right: 0;
@@ -121,6 +125,12 @@
 
     .resume-button-container {
         justify-content: left;
+    }
+}
+
+@media(max-width: 400px) {
+    .timeline-dot:last-of-type:hover {
+        filter: none;
     }
 }
 

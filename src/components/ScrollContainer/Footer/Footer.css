@@ -39,6 +39,16 @@ footer {
     margin-top: 10px;
 }
 
+.source-code a:hover {
+    background-color: var(--active);
+}
+
+@media(max-width: 400px) {
+    .source-code a:hover {
+        background-color: var(--text);
+    }
+}
+
 @media(max-width: 375px) {
     footer h3 {
         font-size: 1rem;
