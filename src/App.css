@@ -9,8 +9,8 @@
 }
 
 :root {
-    --background: rgb(255, 253, 250);
-    --inverse-text: rgb(255, 253, 250);
+    --background: hsl(240, 27.4%, 94%);
+    --inverse-text: hsl(240, 27.4%, 94%);
     --primary:  rgba(16, 16, 16, 1);
     --text: rgba(16, 16, 16, 1);
     --secondary: hsl(240, 27.4%, 60%);
@@ -24,7 +24,7 @@
     --background:rgba(16, 16, 16, .97);;
     --inverse-text:  rgba(16, 16, 16, 1);
     --primary:  rgba(16, 16, 16, 1);
-    --text: hsl(240, 27.4%, 90%);
+    --text:  hsl(240, 27.4%, 94%);
     --secondary: hsl(240, 27.4%, 55%);
     --secondary-light:  hsl(240, 27.4%, 18%);
     --action: hsl(32.471, 59.3%, 40%);
