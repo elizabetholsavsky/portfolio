@@ -1,7 +1,7 @@
 .toggle {
     display: flex;
     align-items: center;
-    margin: 20px;
+    margin: 16px;
 }
 
 .toggle input {
