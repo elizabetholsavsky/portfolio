@@ -24,12 +24,12 @@ const DarkMode = () => {
     }
     return (
         <div className='dark-mode'>
-                <label className="toggle" htmlFor="darkmode-toggle">
+                <label className="toggle" htmlFor="dark-mode-toggle">
                 <span className="sun-icon"><SvgSun/></span>
                 <input
                     className="dark-mode-input"
                     type="checkbox"
-                    id="darkmode-toggle"
+                    id="dark-mode-toggle"
                     onChange={toggleTheme}
                     defaultChecked={selectedTheme === "dark"}
                 />
