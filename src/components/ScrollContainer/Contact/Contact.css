@@ -139,7 +139,7 @@ textarea {
     padding: 0 15px 0 15px;
     font-size: 1rem;
     font-weight: bold;
-    color: var(--text);
+    color:  rgba(16, 16, 16, 1);
     width: 100%;
     background-color: var(--action);
     align-items: center;

@@ -1,5 +1,5 @@
 .dark-mode svg {
-    stroke: var(--inverse-text);
+    stroke: #f4f1f6;
     width: 30px;
     height: auto;
 }
@@ -17,7 +17,7 @@
 }
 
 .link-buttons-container svg {
-    fill: var(--text);
+    fill:  rgba(16, 16, 16, 1);
     width: 40px;
     min-width: 40px;
     height: auto;
@@ -25,7 +25,7 @@
 }
 
 .view-button svg, .close-button svg, .contact-close-button svg {
-    fill: var(--text);
+    fill:  rgba(16, 16, 16, 1);
     width: 40px;
     min-width: 40px;
     height: auto;
@@ -36,7 +36,7 @@
 }
 
 .timeline-dot svg, .contact-dot svg {
-    fill: var(--text);
+    fill:  rgba(16, 16, 16, 1);
     width: 40px;
     height: 40px;
 }
@@ -45,7 +45,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    stroke: var(--text);
+    stroke: rgba(16, 16, 16, 1);
     width: 40px;
     min-width: 40px;
     padding-right: 2px;
@@ -55,7 +55,7 @@
 /* contact */
 
 #contact svg {
-    fill: var(--text);
+    fill:  rgba(16, 16, 16, 1);
     width: 40px;
     min-width: 40px;
     height: auto;
