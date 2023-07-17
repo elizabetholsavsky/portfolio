@@ -24,7 +24,7 @@ const DarkMode = () => {
     }
     return (
         <div className='dark-mode'>
-                <label className="toggle" for="darkmode-toggle">
+                <label className="toggle" htmlFor="darkmode-toggle">
                 <span className="sun-icon"><SvgSun/></span>
                 <input
                     className="dark-mode-input"
@@ -33,7 +33,7 @@ const DarkMode = () => {
                     onChange={toggleTheme}
                     defaultChecked={selectedTheme === "dark"}
                 />
-                <span class="slider"></span>
+                <span className="slider"></span>
                 <span className="moon-icon"><SvgMoon/></span>
                 </label>
         </div>

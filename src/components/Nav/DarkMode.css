@@ -15,7 +15,7 @@
     height: 34px;
     background-color: var(--inverse-text);
     border-radius: 34px;
-    transition: background-color 0.4s;
+    transition: background-color 0.3s;
     margin: 5px;
 }
 
