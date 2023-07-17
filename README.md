@@ -27,3 +27,5 @@
 * [Responsive Vertical Timeline using Html & Css](https://www.youtube.com/watch?v=L9W33EuGjoY&t=19s) by The WebShala
 
 * [Create custom scrollbars using CSS](https://www.youtube.com/watch?v=lvKK2fs6h4I&list=PLIrAIaNuo8lXzzsrlwwc3iLtqIXGH-CdU&index=4&t=488s) by Kevin Powell
+
+* Dark Mode [Dark Theme React Application [Simplest Way] | Toggle Theme React Tutorial](https://www.youtube.com/watch?v=Uz35Qiia84g&t=162s) by Code Bless You
