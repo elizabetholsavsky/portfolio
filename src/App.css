@@ -9,8 +9,8 @@
 }
 
 :root {
-    --background: #f4f1f6;
-    --inverse-text: #f4f1f6;
+    --background: rgb(255, 253, 250);
+    --inverse-text: rgb(255, 253, 250);
     --primary:  rgba(16, 16, 16, 1);
     --text: rgba(16, 16, 16, 1);
     --secondary: hsl(240, 27.4%, 60%);
@@ -33,5 +33,5 @@
 }
 
 * {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.04s ease-in;
 }

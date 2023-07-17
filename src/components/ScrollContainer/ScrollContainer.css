@@ -57,14 +57,13 @@ button {
 }
 
 button:hover {
-    filter: brightness(107%);
-    transform: scale(1.03);
+    filter: brightness(115%);
 }
 
 /* custom-scroll-bar */
 
 ::-webkit-scrollbar {
-    width: 2em;
+    width: 1.75em;
 }
 
 ::-webkit-scrollbar-track {
@@ -91,5 +90,9 @@ button:hover {
 @media (max-width: 400px) {
     ::-webkit-scrollbar {
         display: none;
+    }
+
+    button:hover {
+        filter: none;
     }
 }
