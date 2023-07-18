@@ -14,7 +14,7 @@
     background-color: #f4f1f6;
 }
 
-@media(max-width:825px) {
+@media(max-width:895px) {
     .navbar {
         display: flex;
         justify-content: space-between;

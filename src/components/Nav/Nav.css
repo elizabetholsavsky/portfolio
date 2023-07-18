@@ -63,15 +63,9 @@ h1 {
     color: var(--active);
 }
 
-@media(max-width:1000px) {
-.nav-container {
-    width: 90%;
-    justify-content: space-between;
 
-    }
-}
 
-@media(max-width:890px) {
+@media(max-width:895px) {
     .name {
         display: flex;
         align-items: center;

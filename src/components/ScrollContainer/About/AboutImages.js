@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import SvgClose from '../SVG/Close';
 import './AboutImages.css';
 
 const AboutImages = () => {
     const [selectedImage, setSelectedImage] = useState(null);
+    const [isHoverInitiated, setIsHoverInitiated] = useState(false);
 
     const handleImageClick = (imageData) => {
         setSelectedImage(imageData);
@@ -14,8 +15,27 @@ const AboutImages = () => {
         setSelectedImage(null);
     };
 
+    useEffect(() => {
+        const breakpoint = 825; 
+    
+        const handleViewportResize = () => {
+            if (window.innerWidth < breakpoint) {
+                setIsHoverInitiated(true);
+            } else {
+                setIsHoverInitiated(false);
+            }
+        };
+    
+        handleViewportResize();
+        window.addEventListener('resize', handleViewportResize);
+    
+        return () => {
+            window.removeEventListener('resize', handleViewportResize);
+        };
+    }, []);
+
     return (
-        <div className="card-group">
+        <div className={`card-group ${isHoverInitiated ? 'initiate-hover' : ''}`}>
             <div 
             className="little-card card"
             onClick={() => handleImageClick({
@@ -102,7 +122,7 @@ const AboutImages = () => {
                         <button className="img-close-button" onClick={handleCloseModal}>
                             <div>
                                 <span>CLOSE</span> <SvgClose/> 
-                            </div>
+                                </div>
                         </button>
                     </div>
                     </>
