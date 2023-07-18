@@ -33,3 +33,5 @@
 * About Image Stack/Animation [ImNotGoodEnough.js](https://www.youtube.com/watch?v=6TYkDy54q4E&list=PLIrAIaNuo8lXzzsrlwwc3iLtqIXGH-CdU&index=1) by Hyperplexed
   * "When I break down the big problem into a bunch of smaller problems, the whole thing becomes manageable."
   * [cubic-bezier](https://cubic-bezier.com/#.17,.67,.83,.67)
+
+* [Setup a Custom Domain in Netlify in 5 Minutes](https://www.youtube.com/watch?v=bY7Tkh9Vz8I) by James Q Quick
