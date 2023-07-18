@@ -41,7 +41,7 @@ section {
 .content-text h2 {
     text-transform: uppercase;
     font-weight: 800;
-    color: var(--secondary);
+    color: var(--section-heading);
     font-size: 1rem;
     margin-bottom: 10px;
 }

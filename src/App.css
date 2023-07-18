@@ -19,6 +19,7 @@
     --action: hsl(32.471, 59.3%, 80%);
     --active: hsl(32.471, 59.3%, 80%);
     --font-size: 1.25rem;
+    --section-heading: hsl(240, 27.4%, 50%);
 }
 
 [data-theme="dark"] {
@@ -31,6 +32,7 @@
     --action: hsl(32.471, 59.3%, 60%);
     --active: hsl(32.471, 59.3%, 60%);
     --font-size: 1.25rem;
+    --section-heading: hsl(240, 27.4%, 60%);
 }
 
 html {
