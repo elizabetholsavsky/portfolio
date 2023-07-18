@@ -1,11 +1,11 @@
 import './About.css'
-import ProfilePicture from '../images/Elizabeth.jpg';
 import SvgMapMarker from '../SVG/MapMarker';
 import SvgGithub from '../SVG/Github';
 import SvgHashnode from '../SVG/Hashnode';
 import SvgLinkedin from '../SVG/Linkedin';
 import SvgTwitter from '../SVG/Twitter';
 import SvgEmail from '../SVG/Email';
+import AboutImages from './AboutImages';
 
 const About = () => {
     return (
@@ -44,8 +44,16 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className='profile-picture-container'>
-                    <img src={ProfilePicture} alt="Elizabeth Olsavsky" className='elizabeth'/>
+                <div className='picture-container'>
+                    <AboutImages/>
+                </div>
+
+                <div className="about-card">
+                    <div className="about-text-container-mobile">
+                            <p>
+                                I design and build intuitive and accessible web applications. As a former educator, I approach challenges with an empathetic and user-centric perspective to ensure my solutions are a seamless and empowering experience for all users.
+                            </p>
+                    </div>
                 </div>
             </div>
     </section>
