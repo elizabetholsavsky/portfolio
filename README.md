@@ -28,4 +28,7 @@
 
 * [Create custom scrollbars using CSS](https://www.youtube.com/watch?v=lvKK2fs6h4I&list=PLIrAIaNuo8lXzzsrlwwc3iLtqIXGH-CdU&index=4&t=488s) by Kevin Powell
 
-* Dark Mode [Dark Theme React Application [Simplest Way] | Toggle Theme React Tutorial](https://www.youtube.com/watch?v=Uz35Qiia84g&t=162s) by Code Bless You
+* [Dark Theme React Application [Simplest Way] | Toggle Theme React Tutorial](https://www.youtube.com/watch?v=Uz35Qiia84g&t=162s) by Code Bless You
+
+* About Image Stack/Animation [ImNotGoodEnough.js](https://www.youtube.com/watch?v=6TYkDy54q4E&list=PLIrAIaNuo8lXzzsrlwwc3iLtqIXGH-CdU&index=1) by Hyperplexed
+  * "When I break down the big problem into a bunch of smaller problems, the whole thing becomes manageable."
