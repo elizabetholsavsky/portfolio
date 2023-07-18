@@ -95,7 +95,7 @@ const Timeline = () => {
                             </div>
                             
                         </div>
-                        <div className="timeline-dot"><a href="#resume"><SvgUp title="Scroll to top of timeline"/></a></div>
+                        <div className="timeline-dot"><a href="#resume" aria-label="scroll to top of resume"><SvgUp title="Scroll to top of timeline"/></a></div>
                     </div>
 
                 </div>

@@ -18,8 +18,8 @@ const Footer = () => {
     return (
         <footer>
             <section id="footer">
-                <a href="#about" onClick={scrollToTop}>
-                    <SvgUp title="Scroll to top of page"/>
+                <a href="#about" aria-label="scroll to top of page" onClick={scrollToTop}>
+                    <SvgUp/>
                 </a> 
 
                 <div className="footer-socials-container">
