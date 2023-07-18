@@ -38,6 +38,7 @@
 html {
     min-width: 280px;
     background-color: rgba(16, 16, 16, 1);
+    overflow-x: hidden;
 }
 
 @media(max-width: 400px) {
