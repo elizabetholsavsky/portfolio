@@ -103,7 +103,8 @@
 
 .image-modal {
     border: none;
-    background-color: var(--text);
+    background-color: rgba(16, 16, 16, 1);
+    border: 2px solid hsl(240, 27.4%, 94%);
     padding: 20px;
 }
 
@@ -129,8 +130,7 @@
 }
 
 .modal-caption {
-    background-color: var(--text);
-    color: var(--inverse-text);
+    color: hsl(240, 27.4%, 94%);
     width: fit-content;
     text-align: center;
     margin: 0 auto;
@@ -140,7 +140,6 @@
     font-size: 1rem;
     max-width: 60%;
 }
-
 
 .initiate-hover > .big-card:nth-child(2) {
     transform: translate(-60%, 5%) rotate(-20deg);
