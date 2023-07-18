@@ -93,6 +93,7 @@ const Nav = () => {
                     <li className="nav-item">
                         <a
                             href="#about"
+                            aria-label="about section"
                             className={`nav-link ${activeSection === 'about' ? 'active' : ''}`}
                             onClick={() => handleNavItemClick('about')}>
                             About
@@ -102,6 +103,7 @@ const Nav = () => {
                     <li className="nav-item">
                         <a
                             href="#projects"
+                            aria-label="projects section"
                             className={`nav-link ${
                             activeSection === 'projects' ? 'active' : ''
                             }`}
@@ -113,6 +115,7 @@ const Nav = () => {
                     <li className="nav-item">
                         <a
                             href="#resume"
+                            aria-label="resume section"
                             className={`nav-link ${activeSection === 'resume' ? 'active' : ''}`}
                             onClick={() => handleNavItemClick('resume')}>
                             Resume
@@ -122,6 +125,7 @@ const Nav = () => {
                     <li className="nav-item">
                         <a
                             href="#contact"
+                            aria-label="contact section"
                             className={`nav-link ${
                             activeSection === 'contact' ? 'active' : ''
                             }`}
