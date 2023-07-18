@@ -7,18 +7,10 @@ import SvgTwitter from '../SVG/Twitter';
 import SvgEmail from '../SVG/Email';
 
 const Footer = () => {
-
-    const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
-        });
-    };
-    
     return (
         <footer>
             <section id="footer">
-                <a href="#about" aria-label="scroll to top of page" onClick={scrollToTop}>
+                <a href="#about" aria-label="scroll to top of page">
                     <SvgUp/>
                 </a> 
 

@@ -106,6 +106,8 @@
     background-color: rgba(16, 16, 16, 1);
     border: 2px solid hsl(240, 27.4%, 94%);
     padding: 20px;
+    width: 95%;
+    height: auto;
 }
 
 .modal-image {
@@ -131,14 +133,13 @@
 
 .modal-caption {
     color: hsl(240, 27.4%, 94%);
-    width: fit-content;
+    width: 60%;
     text-align: center;
     margin: 0 auto;
     padding: 5px 10px 5px 10px;
     margin-top: 10px;
     border-radius: 20px;
     font-size: 1rem;
-    max-width: 60%;
 }
 
 .initiate-hover > .big-card:nth-child(2) {
@@ -165,3 +166,20 @@
     transform: translate(130%, -120%) rotate(-15deg);
 }   
 
+@media(max-width: 900px) {
+    .modal-caption {
+        width: 85%;
+    }
+}
+
+@media(max-width: 1125px) {
+    .card {
+        border: 5px solid var(--text);
+    }
+}
+
+@media(max-width: 600px) {
+    .card {
+        border: 3px solid var(--text);
+    }
+}

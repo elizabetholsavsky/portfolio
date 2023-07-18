@@ -37,6 +37,7 @@
 
 html {
     min-width: 280px;
+    background-color: rgba(16, 16, 16, 1);
 }
 
 @media(max-width: 400px) {

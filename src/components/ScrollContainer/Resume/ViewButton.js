@@ -43,7 +43,7 @@ const ViewButton = () => {
                 </div>
                 
 
-                <iframe src={resumePDF} title="PDF Viewer" width="100%" height="100%" />
+                <iframe src={resumePDF} title="PDF Viewer" className="custom-iframe"/>
             </Modal>
         </div>
     );
