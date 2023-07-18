@@ -46,7 +46,7 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    color: var(--text);
+    color:  rgba(16, 16, 16, 1);
 }
 
 .resume-button-container {

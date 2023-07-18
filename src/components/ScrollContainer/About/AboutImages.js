@@ -6,8 +6,8 @@ import './AboutImages.css';
 const AboutImages = () => {
     const [selectedImage, setSelectedImage] = useState(null);
 
-    const handleImageClick = (imageUrl) => {
-        setSelectedImage(imageUrl);
+    const handleImageClick = (imageData) => {
+        setSelectedImage(imageData);
     };
 
     const handleCloseModal = () => {
@@ -18,26 +18,61 @@ const AboutImages = () => {
         <div className="card-group">
             <div 
             className="little-card card"
-            onClick={() => handleImageClick(require('../images/about-img/skate-bowl.jpg'))}
+            onClick={() => handleImageClick({
+                image: require('../images/about-img/skate-bowl.jpg'),
+                caption: 'Caption for the first image',
+                })
+            }
+            style={{
+                backgroundImage: `url(${require('../images/about-img/skate-bowl.jpg')})`,
+            }}
             ></div>
 
             <div 
             className="big-card card"
-            onClick={() => handleImageClick(require('../images/about-img/bmx-mag.png'))}
+            onClick={() => handleImageClick({
+                image: require('../images/about-img/bmx-mag.png'),
+                caption: 'Caption for the second image',
+                })
+            }
+            style={{
+                backgroundImage: `url(${require('../images/about-img/bmx-mag.png')})`,
+            }}
             ></div>
 
             <div 
             className="little-card card"
-            onClick={() => handleImageClick(require('../images/about-img/midjourney.PNG'))}
+            onClick={() => handleImageClick({
+                image: require('../images/about-img/midjourney.PNG'),
+                caption: 'Caption for the third image',
+                })
+            }
+            style={{
+                backgroundImage: `url(${require('../images/about-img/midjourney.PNG')})`,
+            }}
             ></div>
 
             <div 
             className="big-card card"
-            onClick={() => handleImageClick(require('../images/about-img/skate.jpg'))}
+            onClick={() => handleImageClick({
+                image: require('../images/about-img/skate.jpg'),
+                caption: 'Caption for the fourth image',
+                })
+            }
+            style={{
+                backgroundImage: `url(${require('../images/about-img/skate.jpg')})`,
+            }}
             ></div>
 
             <div className="little-card card"
-            onClick={() => handleImageClick(require('../images/about-img/kitties.jpg'))}
+            onClick={() => handleImageClick({
+                image: require('../images/about-img/kitties.jpg'),
+                caption: 'Caption for the fifth image',
+                })
+            }
+            style={{
+                backgroundImage: `url(${require('../images/about-img/kitties.jpg')})`,
+            }}
             ></div>
 
             <div 
@@ -55,19 +90,23 @@ const AboutImages = () => {
             >
 
                 {selectedImage && (
+                    <>
                     <img 
-                    src={selectedImage} 
+                    src={selectedImage.image}  
                     alt="Full-size"
                     className="modal-image" />
+                    <div className="modal-caption">
+                        {selectedImage.caption}
+                    </div>
+                    <div className="modal-button-container">
+                        <button className="img-close-button" onClick={handleCloseModal}>
+                            <div>
+                                <span>CLOSE</span> <SvgClose/> 
+                            </div>
+                        </button>
+                    </div>
+                    </>
                 )}
-
-                <div className="modal-button-container">
-                    <button className="img-close-button" onClick={handleCloseModal}>
-                        <div>
-                            <span>CLOSE</span> <SvgClose/> 
-                        </div>
-                    </button>
-                </div>
 
             </Modal>
         </div>

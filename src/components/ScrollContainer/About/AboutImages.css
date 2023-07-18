@@ -125,5 +125,17 @@
     padding: 10px;
     font-size: 1rem;
     font-weight: bold;
-    color: var(--text);
+    color: rgba(16, 16, 16, 1);
+}
+
+.modal-caption {
+    background-color: var(--text);
+    color: var(--inverse-text);
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 1rem;
 }
