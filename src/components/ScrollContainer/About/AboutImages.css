@@ -103,6 +103,8 @@
 
 .image-modal {
     border: none;
+    background-color: var(--text);
+    padding: 20px;
 }
 
 .modal-image {

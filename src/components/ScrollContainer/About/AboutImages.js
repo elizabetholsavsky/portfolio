@@ -64,7 +64,7 @@ const AboutImages = () => {
             className="little-card card"
             onClick={() => handleImageClick({
                 image: require('../images/about-img/midjourney.PNG'),
-                caption: "I love art and sketch often. I am also an AI art enthusiast and utilize Midjourney to create text and image prompts. I'm especially interested in science fiction, space, fantasy, and pop art.",
+                caption: "I love art and sketch often. I am also an AI art enthusiast and utilize Midjourney to create text and image prompts. I'm especially interested in science fiction, space, fantasy, monsters, and pop art.",
                 })
             }
             style={{
