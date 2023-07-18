@@ -54,6 +54,7 @@
 
 /* contact */
 
+.img-close-button svg, 
 #contact svg {
     fill:  rgba(16, 16, 16, 1);
     width: 40px;

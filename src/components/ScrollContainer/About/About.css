@@ -15,7 +15,7 @@
 .about-content-container {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 40%;
     align-items: flex-start;
     justify-content: center;    
 }
@@ -48,38 +48,49 @@
     width: 100%;
 }
 
-.profile-picture-container {
+.picture-container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 40%;
-    align-items: center;
-    justify-content: center;
+    width: 60%;
+    height: 720px;
+    justify-content: center; 
+    align-items: center; 
 }
 
-.profile-picture-container img {
-    border: 15px solid var(--secondary-light);
-    max-width: 60%;
-    min-width: 200px;
-    height: auto;
-    border-radius: 50%;  
+.about-text-container-mobile {
+    display: none;
 }
 
 @media (max-width: 900px) {
-    .about-content-container, .profile-picture-container {
+    .about-text-container {
+        display: none;
+    }
+
+    .about-text-container-mobile {
+        display: block;
+        margin-bottom: 100px;
+        padding: 5px;
+    }
+
+    #about  {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .about-content-container, .picture-container {
         width: 100%;
     }
 
-    .profile-picture-container img {
-        margin-top: 20px;
-        margin-bottom: 60px;
-    }
-
-    .about-content-container {
-        padding: 5px;
+    .picture-container {
+        height:600px;
     }
     
     .about-card {
         padding: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .picture-container {
+        height: 325px;
     }
 }
