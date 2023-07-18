@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import SvgClose from '../SVG/Close';
 import './AboutImages.css';
 
 const AboutImages = () => {
     const [selectedImage, setSelectedImage] = useState(null);
+    const [isHoverInitiated, setIsHoverInitiated] = useState(false);
 
     const handleImageClick = (imageData) => {
         setSelectedImage(imageData);
@@ -14,13 +15,32 @@ const AboutImages = () => {
         setSelectedImage(null);
     };
 
+    useEffect(() => {
+        const breakpoint = 1125; 
+    
+        const handleViewportResize = () => {
+            if (window.innerWidth < breakpoint) {
+                setIsHoverInitiated(true);
+            } else {
+                setIsHoverInitiated(false);
+            }
+        };
+    
+        handleViewportResize();
+        window.addEventListener('resize', handleViewportResize);
+    
+        return () => {
+            window.removeEventListener('resize', handleViewportResize);
+        };
+    }, []);
+
     return (
-        <div className="card-group">
+        <div className={`card-group ${isHoverInitiated ? 'initiate-hover' : ''}`}>
             <div 
             className="little-card card"
             onClick={() => handleImageClick({
                 image: require('../images/about-img/skate-bowl.jpg'),
-                caption: 'Caption for the first image',
+                caption: 'Evergreen Skateparks are my favorite! I plan to travel and visit them all one day. This skatepark is in Fredericksburg, TX.',
                 })
             }
             style={{
@@ -32,7 +52,7 @@ const AboutImages = () => {
             className="big-card card"
             onClick={() => handleImageClick({
                 image: require('../images/about-img/bmx-mag.png'),
-                caption: 'Caption for the second image',
+                caption: "I started riding BMX bikes as teenager and it helped grow the tenacity and perseverance to tackle difficult tasks. This is a photograph of me doing a 360 on the Fox Women's Tour featured in Dig BMX Magazine.",
                 })
             }
             style={{
@@ -44,7 +64,7 @@ const AboutImages = () => {
             className="little-card card"
             onClick={() => handleImageClick({
                 image: require('../images/about-img/midjourney.PNG'),
-                caption: 'Caption for the third image',
+                caption: "I love art and sketch often. I am also an AI art enthusiast and utilize Midjourney to create text and image prompts. I'm especially interested in science fiction, space, fantasy, and pop art.",
                 })
             }
             style={{
@@ -56,7 +76,7 @@ const AboutImages = () => {
             className="big-card card"
             onClick={() => handleImageClick({
                 image: require('../images/about-img/skate.jpg'),
-                caption: 'Caption for the fourth image',
+                caption: "I love roller skating at the skatepark, in the streets, and at the roller rink. This is a judo air at my favorite Pflugerville skatepark.",
                 })
             }
             style={{
@@ -67,7 +87,7 @@ const AboutImages = () => {
             <div className="little-card card"
             onClick={() => handleImageClick({
                 image: require('../images/about-img/kitties.jpg'),
-                caption: 'Caption for the fifth image',
+                caption: "I have two lovely cats: Sen (left) and Vera (right).",
                 })
             }
             style={{
@@ -93,17 +113,17 @@ const AboutImages = () => {
                     <>
                     <img 
                     src={selectedImage.image}  
-                    alt="Full-size"
+                    alt= {selectedImage.caption}
                     className="modal-image" />
                     <div className="modal-caption">
                         {selectedImage.caption}
-                    </div>
-                    <div className="modal-button-container">
+                        <div className="modal-button-container">
                         <button className="img-close-button" onClick={handleCloseModal}>
                             <div>
                                 <span>CLOSE</span> <SvgClose/> 
-                            </div>
+                                </div>
                         </button>
+                    </div>
                     </div>
                     </>
                 )}

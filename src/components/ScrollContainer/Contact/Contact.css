@@ -167,6 +167,7 @@ textarea {
 
 .message-modal {
     background-color: var(--background);
+    color: var(--text);
     border: 4px solid var(--text);
     padding: 20px;
 }
