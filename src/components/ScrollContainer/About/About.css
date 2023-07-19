@@ -62,11 +62,6 @@
 }
 
 @media (max-width: 1125px) {
-    #about  {
-        width: 100%;
-        padding: 5px;
-    }
-
     .about-text-container {
         display: none;
     }
@@ -114,5 +109,9 @@
 @media (max-width: 350px) {
     .picture-container {
         height: 250px;
+    }
+    #about  {
+        width: 100%;
+        margin: 5px;
     }
 }
