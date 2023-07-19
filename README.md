@@ -13,7 +13,9 @@
 
 Learn more about me, see my latest projects, and download my resume with work and education experiences. I have provided both a light or dark mode experience for your viewing pleasure.  
 
-I want to hear from you! Send me a message via the contact or form or email me at elizabetholsavsky@gmail.com. Don't forget to check out my other accounts, links are provided. 
+I want to hear from you! Send me a message via the contact or form or email me at elizabetholsavsky@gmail.com. 
+
+Hear more about my journey creating this portfolio at my [blog](https://elizabetholsavsky.hashnode.dev/hello-world). Don't forget to check out my other accounts, links are provided. 
 
 ![elizabetholsavsky com](https://github.com/elizabetholsavsky/portfolio/assets/116515976/3795d8a7-9680-4b1a-a150-24df32630091)
 
