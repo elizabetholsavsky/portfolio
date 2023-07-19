@@ -1,9 +1,7 @@
 <div align="center">
   
-  # Portfolio
-  
-  [https://elizabetholsavsky.com/](https://elizabetholsavsky.com/)
-  
+  # [ElizabethOlsavsky.com](https://elizabetholsavsky.com/)
+    
   <a href="">[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)</a>
   <a href="">[![Node.js Badge](https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=flat)](https://nodejs.org/en)</a>
   <a href=""> [![React Badge](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=flat)](https://react.dev/)</a>
@@ -13,16 +11,17 @@
 
 ## Description
 
+Learn more about me, see my latest projects, and download my resume with work and education experiences. I have provided both a light or dark mode experience for your viewing pleasure.  
+
+I want to hear from you! Send me a message via the contact or form or email me at elizabetholsavsky@gmail.com. Don't forget to check out my other accounts, links are provided. 
+
+![elizabetholsavsky com](https://github.com/elizabetholsavsky/portfolio/assets/116515976/3795d8a7-9680-4b1a-a150-24df32630091)
 
 ## Table of Contents
 
-* [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
 * [Questions](#questions)
-
-## Usage
-
 
 ## License
 
@@ -31,45 +30,50 @@
 
 ## Contributing
 
-* [Learn React 18 with Redux Toolkit – Full Tutorial for Beginners](https://www.youtube.com/watch?v=2-crBg6wpp0&t=1) by [John Smilga](https://github.com/john-smilga) & [Free Code Camp](https://github.com/freeCodeCamp)
+  ### Resources
+  * [Favicon.io](https://favicon.io/favicon-generator/)
 
-* [Portfolio Pure CSS Scroll Snapping Tutorial](https://www.youtube.com/watch?v=pNPkVQD7vlM&t=1s) by [Filip Grebowski](https://github.com/FilipGrebowski)
+  * [SVG Repo](https://www.svgrepo.com/)
 
-* [JavaScript - How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript](https://www.youtube.com/watch?v=flItyHiDm7E) by [Miguel Z. Nunez](https://github.com/miguelznunez)
-
-* [Favicon.io](https://favicon.io/favicon-generator/)
-
-* [SVG Repo](https://www.svgrepo.com/)
-
-* [SVGR](https://react-svgr.com/) / [SVGR/CLI](https://www.npmjs.com/package/@svgr/cli)
+  * [SVGR](https://react-svgr.com/) / [SVGR/CLI](https://www.npmjs.com/package/@svgr/cli)
    * `npm install @svgr/cli --save-dev`
    * `npx svgr src/components/ScrollContainer/images/icons/{ICON_NAME}.svg --out-dir src/components/ScrollContainer/SVG --icon`
 
- * [EmailJS](https://www.emailjs.com/)
+  * [EmailJS](https://www.emailjs.com/)
    * [Docs](https://www.emailjs.com/docs/examples/reactjs/)
    * `npm i @emailjs/browser`
    * [Send Email With React (No Backend Required)](https://www.youtube.com/watch?v=I4DKr1JLC50&list=PLIrAIaNuo8lXzzsrlwwc3iLtqIXGH-CdU&index=18) by Zino Trust Academy
 
-* [react-modal](https://www.npmjs.com/package/react-modal)
+  * [react-modal](https://www.npmjs.com/package/react-modal)
    * [GitHub](https://github.com/reactjs/react-modal)
 
-* [Responsive Vertical Timeline using Html & Css](https://www.youtube.com/watch?v=L9W33EuGjoY&t=19s) by The WebShala
-
-* [Create custom scrollbars using CSS](https://www.youtube.com/watch?v=lvKK2fs6h4I&list=PLIrAIaNuo8lXzzsrlwwc3iLtqIXGH-CdU&index=4&t=488s) by Kevin Powell
-
-* [Dark Theme React Application [Simplest Way] | Toggle Theme React Tutorial](https://www.youtube.com/watch?v=Uz35Qiia84g&t=162s) by Code Bless You
-
-* About Image Stack/Animation [ImNotGoodEnough.js](https://www.youtube.com/watch?v=6TYkDy54q4E&list=PLIrAIaNuo8lXzzsrlwwc3iLtqIXGH-CdU&index=1) by Hyperplexed
-  * "When I break down the big problem into a bunch of smaller problems, the whole thing becomes manageable."
   * [cubic-bezier](https://cubic-bezier.com/#.17,.67,.83,.67)
 
-* [Setup a Custom Domain in Netlify in 5 Minutes](https://www.youtube.com/watch?v=bY7Tkh9Vz8I) by James Q Quick
+  ### Tutorials
 
+  * [Learn React 18 with Redux Toolkit – Full Tutorial for Beginners](https://www.youtube.com/watch?v=2-crBg6wpp0&t=1) by [John Smilga](https://github.com/john-smilga) & [Free Code Camp](https://github.com/freeCodeCamp)
+
+  * [Portfolio Pure CSS Scroll Snapping Tutorial](https://www.youtube.com/watch?v=pNPkVQD7vlM&t=1s) by [Filip Grebowski](https://github.com/FilipGrebowski)
+
+  * [JavaScript - How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript](https://www.youtube.com/watch?v=flItyHiDm7E) by [Miguel Z. Nunez](https://github.com/miguelznunez)
+
+  * [Responsive Vertical Timeline using Html & Css](https://www.youtube.com/watch?v=L9W33EuGjoY&t=19s) by The WebShala
+
+  * [Create custom scrollbars using CSS](https://www.youtube.com/watch?v=lvKK2fs6h4I&list=PLIrAIaNuo8lXzzsrlwwc3iLtqIXGH-CdU&index=4&t=488s) by Kevin Powell
+
+  * [Dark Theme React Application [Simplest Way] | Toggle Theme React Tutorial](https://www.youtube.com/watch?v=Uz35Qiia84g&t=162s) by Code Bless You
+
+  * [ImNotGoodEnough.js](https://www.youtube.com/watch?v=6TYkDy54q4E&list=PLIrAIaNuo8lXzzsrlwwc3iLtqIXGH-CdU&index=1) by Hyperplexed
+    * **"When I break down the big problem into a bunch of smaller problems, the whole thing becomes manageable."**
+
+  * [Setup a Custom Domain in Netlify in 5 Minutes](https://www.youtube.com/watch?v=bY7Tkh9Vz8I) by James Q Quick
 
 ## Questions
 
 Contact:
-
-* Github [elizabetholsavsky](https://github.com/elizabetholsavsky)
 * Email elizabetholsavsky@gmail.com
+* [LinkedIn](https://www.linkedin.com/in/elizabetholsavsky/)
+* Hashnode [https://elizabetholsavsky.hashnode.dev/](https://elizabetholsavsky.hashnode.dev/)
+* Github [elizabetholsavsky](https://github.com/elizabetholsavsky)
+* Twitter [@elizavsky](https://twitter.com/home)
 
