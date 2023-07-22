@@ -50,7 +50,10 @@ const Project = ({
             </div>
 
             <div className='project-img-container'>
-                <img src={img} alt={title}/>
+                <picture>
+                    <source srcSet={avif} type="image/avif" alt={title}/>
+                    <img src={img} alt={title}/>
+                </picture>
             </div>
 
                 <div className="link-buttons-container">
