@@ -115,14 +115,16 @@
 .project-img-container {
     width: 50%;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: center; 
 }
 
-.project-img-container img {
+.project-img {
     max-width: 95%;
     height: auto;
+    margin: 0 auto;
     padding: 20px 0 20px 0;
+    margin-left: auto;
 }
 
 @media (max-width: 1000px) {
@@ -135,15 +137,14 @@
 
     .project-info, .project-img-container {
         width: 100%;
+        justify-content: center;
     }
 
     
-    .project-img-container img {
+    .project-img {
+        margin: 0;
         padding: 0;
-    }
-
-    .project-img-container {
-        justify-content: center;
+        max-width: 100%;
     }
 
     .project-url {

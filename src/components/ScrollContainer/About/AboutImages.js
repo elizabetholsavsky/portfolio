@@ -39,64 +39,77 @@ const AboutImages = () => {
             <div 
             className="little-card card"
             onClick={() => handleImageClick({
-                image: require('../images/about-img/skate-bowl.jpg'),
+                image: require('../images/about-img/avif/skate-bowl.avif'),
+                imagePng: require('../images/about-img/img/skate-bowl.jpg'),
                 caption: 'Evergreen Skateparks are my favorite! I plan to travel and visit them all one day. This skatepark is in Fredericksburg, TX.',
                 })
             }
             style={{
-                backgroundImage: `url(${require('../images/about-img/skate-bowl.jpg')})`,
+                backgroundImage: `url(${require('../images/about-img/img/skate-bowl.jpg')})`,
             }}
             ></div>
 
             <div 
             className="big-card card"
             onClick={() => handleImageClick({
-                image: require('../images/about-img/bmx-mag.png'),
+                image: require('../images/about-img/avif/bmx-mag.avif'),
+                imagePng: require('../images/about-img/img/bmx-mag.png'),
                 caption: "I started riding BMX bikes as teenager and it helped grow the tenacity and perseverance to tackle difficult tasks. This is a photograph of me doing a 360 on the Fox Women's Tour featured in Dig BMX Magazine.",
                 })
             }
             style={{
-                backgroundImage: `url(${require('../images/about-img/bmx-mag.png')})`,
+                backgroundImage: `url(${require('../images/about-img/img/bmx-mag.png')})`,
             }}
             ></div>
 
             <div 
             className="little-card card"
             onClick={() => handleImageClick({
-                image: require('../images/about-img/midjourney.PNG'),
+                image: require('../images/about-img/avif/midjourney.avif'),
+                imagePng: require('../images/about-img/img/midjourney.PNG'),
                 caption: "I love art and sketch often. I am also an AI art enthusiast and utilize Midjourney to create text and image prompts. I'm especially interested in science fiction, space, fantasy, monsters, and pop art.",
                 })
             }
             style={{
-                backgroundImage: `url(${require('../images/about-img/midjourney.PNG')})`,
+                backgroundImage: `url(${require('../images/about-img/img/midjourney.PNG')})`,
             }}
             ></div>
 
             <div 
             className="big-card card"
             onClick={() => handleImageClick({
-                image: require('../images/about-img/skate.jpg'),
+                image: require('../images/about-img/avif/skate.avif'),
+                imagePng: require('../images/about-img/img/skate.jpg'),
                 caption: "I love roller skating at the skatepark, in the streets, and at the roller rink. This is a judo air at my favorite Pflugerville skatepark.",
                 })
             }
             style={{
-                backgroundImage: `url(${require('../images/about-img/skate.jpg')})`,
+                backgroundImage: `url(${require('../images/about-img/img/skate.jpg')})`,
             }}
             ></div>
 
             <div className="little-card card"
             onClick={() => handleImageClick({
-                image: require('../images/about-img/kitties.jpg'),
+                image: require('../images/about-img/avif/kitties.avif'),
+                imagePng: require('../images/about-img/img/kitties.jpg'),
                 caption: "I have two lovely cats: Sen (left) and Vera (right).",
                 })
             }
             style={{
-                backgroundImage: `url(${require('../images/about-img/kitties.jpg')})`,
+                backgroundImage: `url(${require('../images/about-img/img/kitties.jpg')})`,
             }}
             ></div>
 
-            <div 
-            className="big-card card"
+            <div className="big-card card"
+            onClick={() => handleImageClick({
+                image: require('../images/about-img/avif/Elizabeth.avif'),
+                imagePng: require('../images/about-img/img/Elizabeth.jpg'),
+                caption: "me!",
+                })
+            }
+            style={{
+                backgroundImage: `url(${require('../images/about-img/img/Elizabeth.jpg')})`,
+            }}
             ></div>
 
             <Modal
