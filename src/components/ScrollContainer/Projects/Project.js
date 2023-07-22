@@ -14,6 +14,7 @@ const Project = ({
     deployLink,
     githubLink,
     vscodeLink,
+    avif,
     img
 }) => {
 
