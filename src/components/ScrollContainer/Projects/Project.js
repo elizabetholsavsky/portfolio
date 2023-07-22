@@ -50,10 +50,10 @@ const Project = ({
 
             </div>
 
-            <div className='project-img-container'>
+            <picture className='project-img-container'>
                     <source srcSet={avif} type="image/avif" alt={title}/>
                     <img className="project-img" src={img} alt={title}/>
-            </div>
+            </picture>
 
                 <div className="link-buttons-container">
 
