@@ -1,6 +1,10 @@
-import scriptlySpeakingImg from '../images/project-img/scriptly-speaking.png';
-import weatherDashboardImg from '../images/project-img/weather-dashboard.png';
-import fusionFablesImg from '../images/project-img/fusion-fables.png';
+import scriptlySpeakingAvif from '../images/project-img/avif/scriptly-speaking.avif';
+import weatherDashboardAvif from '../images/project-img/avif/weather-dashboard.avif';
+import fusionFablesAvif from '../images/project-img/avif/fusion-fables.avif';
+
+import scriptlySpeakingImg from '../images/project-img/img/scriptly-speaking.png';
+import weatherDashboardImg from '../images/project-img/img/weather-dashboard.png';
+import fusionFablesImg from '../images/project-img/img/fusion-fables.png';
 
 export const projectInfo = [
     {
@@ -14,6 +18,7 @@ export const projectInfo = [
         deployLink:"https://scriptlyspeaking.herokuapp.com/",
         githubLink:"https://github.com/elizabetholsavsky/scriptly-speaking",
         vscodeLink:"https://vscode.dev/github/elizabetholsavsky/scriptly-speaking",
+        avif: scriptlySpeakingAvif,
         img: scriptlySpeakingImg,
     },
     {
@@ -25,6 +30,7 @@ export const projectInfo = [
         deployLink:"https://elizabetholsavsky.github.io/weather-dashboard/",
         githubLink:"https://github.com/elizabetholsavsky/weather-dashboard",
         vscodeLink:"https://vscode.dev/github/elizabetholsavsky/weather-dashboard",
+        avif: weatherDashboardAvif,
         img: weatherDashboardImg,
     },
     {
@@ -38,6 +44,7 @@ export const projectInfo = [
         deployLink:"http://www.fusionfables.com/",
         githubLink:"https://github.com/HunterHester/fusion-fables",
         vscodeLink:"https://vscode.dev/github/HunterHester/fusion-fables",
+        avif: fusionFablesAvif,
         img: fusionFablesImg,
     },
 ];
