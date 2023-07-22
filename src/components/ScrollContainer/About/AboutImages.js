@@ -45,7 +45,7 @@ const AboutImages = () => {
                 })
             }
             style={{
-                backgroundImage: `url(${require('../images/about-img/img/skate-bowl.jpg')})`,
+                backgroundImage: `url(${require('../images/about-img/avif/skate-bowl.avif')})`,
             }}
             ></div>
 
@@ -58,7 +58,7 @@ const AboutImages = () => {
                 })
             }
             style={{
-                backgroundImage: `url(${require('../images/about-img/img/bmx-mag.png')})`,
+                backgroundImage: `url(${require('../images/about-img/avif/bmx-mag.avif')})`,
             }}
             ></div>
 
@@ -71,7 +71,7 @@ const AboutImages = () => {
                 })
             }
             style={{
-                backgroundImage: `url(${require('../images/about-img/img/midjourney.PNG')})`,
+                backgroundImage: `url(${require('../images/about-img/avif/midjourney.avif')})`,
             }}
             ></div>
 
@@ -84,7 +84,7 @@ const AboutImages = () => {
                 })
             }
             style={{
-                backgroundImage: `url(${require('../images/about-img/img/skate.jpg')})`,
+                backgroundImage: `url(${require('../images/about-img/avif/skate.avif')})`,
             }}
             ></div>
 
@@ -96,7 +96,7 @@ const AboutImages = () => {
                 })
             }
             style={{
-                backgroundImage: `url(${require('../images/about-img/img/kitties.jpg')})`,
+                backgroundImage: `url(${require('../images/about-img/avif/kitties.avif')})`,
             }}
             ></div>
 
@@ -108,7 +108,7 @@ const AboutImages = () => {
                 })
             }
             style={{
-                backgroundImage: `url(${require('../images/about-img/img/Elizabeth.jpg')})`,
+                backgroundImage: `url(${require('../images/about-img/avif/Elizabeth.avif')})`,
             }}
             ></div>
 

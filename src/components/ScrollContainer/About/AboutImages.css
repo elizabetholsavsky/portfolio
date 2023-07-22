@@ -32,7 +32,7 @@
 }
 
 .big-card:nth-child(2) {
-    background-image: url(../images/about-img/img/bmx-mag.png);
+    background-image: url(../images/about-img/avif/bmx-mag.avif);
     aspect-ratio: 8 / 10;
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -41,7 +41,7 @@
 }
 
 .little-card:nth-child(3) {
-    background-image: url(../images/about-img/img/midjourney.PNG);
+    background-image: url(../images/about-img/avif/midjourney.avif);
     aspect-ratio: 1 / 1;
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -49,7 +49,7 @@
 }
 
 .big-card:nth-child(4) {
-    background-image: url(../images/about-img/img/skate.jpg);
+    background-image: url(../images/about-img/avif/skate.avif);
     aspect-ratio: 5 / 7;
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -58,7 +58,7 @@
 }
 
 .little-card:nth-child(5) {
-    background-image: url(../images/about-img/img/kitties.jpg);
+    background-image: url(../images/about-img/avif/kitties.avif);
     aspect-ratio: 1 / 1;
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -67,7 +67,7 @@
 
 .big-card:nth-child(6) {
     width: 35vmin;
-    background-image: url(../images/about-img/img/Elizabeth.jpg);
+    background-image: url(../images/about-img/avif/Elizabeth.avif);
     aspect-ratio: 1 / 1;
     background-size: cover; 
     background-repeat: no-repeat; 
