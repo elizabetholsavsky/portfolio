@@ -104,7 +104,7 @@ const AboutImages = () => {
             onClick={() => handleImageClick({
                 image: require('../images/about-img/avif/Elizabeth.avif'),
                 imagePng: require('../images/about-img/img/Elizabeth.jpg'),
-                caption: "me!",
+                caption: "I enjoy coding, reading graphic novels, and roller skating.",
                 })
             }
             style={{
