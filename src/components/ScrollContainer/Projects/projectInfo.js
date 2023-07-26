@@ -1,10 +1,12 @@
 import scriptlySpeakingAvif from '../images/project-img/avif/scriptly-speaking.avif';
 import weatherDashboardAvif from '../images/project-img/avif/weather-dashboard.avif';
 import fusionFablesAvif from '../images/project-img/avif/fusion-fables.avif';
+import schedaddyAvif from '../images/project-img/avif/schedaddy.avif';
 
 import scriptlySpeakingImg from '../images/project-img/img/scriptly-speaking.png';
 import weatherDashboardImg from '../images/project-img/img/weather-dashboard.png';
 import fusionFablesImg from '../images/project-img/img/fusion-fables.png';
+import schedaddyImg from '../images/project-img/img/schedaddy.png';
 
 export const projectInfo = [
     {
@@ -46,5 +48,19 @@ export const projectInfo = [
         vscodeLink:"https://vscode.dev/github/HunterHester/fusion-fables",
         avif: fusionFablesAvif,
         img: fusionFablesImg,
+    },
+    {
+        id: 4,
+        title:"Schedaddy Team Project",
+        url:"https://schedaddy-0dffdc6ab2cd.herokuapp.com/",
+        description: "Schedaddy is a Customer relationship management (CRM) platform with the intent to streamline your scheduling for your company. Schedaddy offers the ability to manage employees, roles, and schedules with the greatest of ease.",
+        demo_username: "demo@mail.com",
+        demo_password: "Password123!",
+        tags: ["Node", "Express", "React", "MongoDB", "Mongoose", "GraphQL", "Bootstrap", "Bcrypt", "JSON Web Tokens", "Faker-js"],
+        deployLink:"https://schedaddy-0dffdc6ab2cd.herokuapp.com/",
+        githubLink:"https://github.com/cmcnamara15/Schedaddy",
+        vscodeLink:"https://vscode.dev/github/cmcnamara15/Schedaddy",
+        avif: schedaddyAvif,
+        img: schedaddyImg,
     },
 ];
