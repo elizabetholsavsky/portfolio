@@ -23,7 +23,7 @@ Hear more about my journey creating this portfolio at my [blog](https://elizabet
 
 * [License](#license)
 * [Contributing](#contributing)
-* [Questions](#questions)
+* [Contact](#contact)
 
 ## License
 
@@ -73,9 +73,7 @@ Hear more about my journey creating this portfolio at my [blog](https://elizabet
 
   * [Setup a Custom Domain in Netlify in 5 Minutes](https://www.youtube.com/watch?v=bY7Tkh9Vz8I) by James Q Quick
 
-## Questions
-
-Contact:
+## Contact
 * Email elizabetholsavsky@gmail.com
 * LinkedIn [https://www.linkedin.com/in/elizabetholsavsky/](https://www.linkedin.com/in/elizabetholsavsky/)
 * Portfolio [https://elizabetholsavsky.com/](https://elizabetholsavsky.com/)
