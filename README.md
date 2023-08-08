@@ -49,6 +49,10 @@ Hear more about my journey creating this portfolio at my [blog](https://elizabet
      * [GitHub](https://github.com/reactjs/react-modal)
 
   * [cubic-bezier](https://cubic-bezier.com/#.17,.67,.83,.67)
+    
+  * [Sqoosh (image compression web app)](https://squoosh.app/)
+    
+  * [Transfonter (web font generator)](https://transfonter.org/)
 
   ### Tutorials
 
@@ -72,6 +76,10 @@ Hear more about my journey creating this portfolio at my [blog](https://elizabet
     * **"When I break down the big problem into a bunch of smaller problems, the whole thing becomes manageable."**
 
   * [Setup a Custom Domain in Netlify in 5 Minutes](https://www.youtube.com/watch?v=bY7Tkh9Vz8I) by James Q Quick
+
+  * [How To Optimize Images with Squoosh.app](https://www.youtube.com/watch?v=0XHQ4Z57BXI) by Steven Monson
+  
+  * [Self-hosting fonts explained (including Google fonts) // @font-face tutorial](https://www.youtube.com/watch?v=zK-yy6C2Nck&list=PLIrAIaNuo8lXKDFZS2AgqrO8Wk8jw5x9i&index=2) by Kevin Powell 
 
 ## Contact
 * Email elizabetholsavsky@gmail.com
