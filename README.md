@@ -15,7 +15,7 @@ Learn more about me, see my latest projects, and download my resume with work an
 
 I want to hear from you! Send me a message via the contact or form or email me at elizabetholsavsky@gmail.com. 
 
-Hear more about my journey creating this portfolio at my [blog](https://elizabetholsavsky.hashnode.dev/hello-world). Don't forget to check out my other accounts (links provided). 
+Hear more about my journey creating this portfolio at my [blog]([https://elizabetholsavsky.hashnode.dev/hello-world](https://elizabetholsavsky.hashnode.dev/first-react-portfolio)). Don't forget to check out my other accounts (links provided). 
 
 ![elizabetholsavsky com](https://github.com/elizabetholsavsky/portfolio/assets/116515976/3795d8a7-9680-4b1a-a150-24df32630091)
 
@@ -60,7 +60,7 @@ Hear more about my journey creating this portfolio at my [blog](https://elizabet
 
   * [Learn React 18 with Redux Toolkit – Full Tutorial for Beginners](https://www.youtube.com/watch?v=2-crBg6wpp0&t=1) by [John Smilga](https://github.com/john-smilga) & [Free Code Camp](https://github.com/freeCodeCamp)
 
-  * [Portfolio Pure CSS Scroll Snapping Tutorial](https://www.youtube.com/watch?v=pNPkVQD7vlM&t=1s) by [Filip Grebowski](https://github.com/FilipGrebowski)
+  * [[Portfolio Pure CSS Scroll Snapping Tutorial](https://www.youtube.com/watch?v=UWwNIMHFdW4)](https://www.youtube.com/watch?v=pNPkVQD7vlM&t=1s) by [Filip Grebowski](https://github.com/FilipGrebowski)
 
   * [JavaScript - How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript](https://www.youtube.com/watch?v=flItyHiDm7E) by [Miguel Z. Nunez](https://github.com/miguelznunez)
 
