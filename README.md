@@ -15,7 +15,7 @@ Learn more about me, see my latest projects, and download my resume with work an
 
 I want to hear from you! Send me a message via the contact or form or email me at elizabetholsavsky@gmail.com. 
 
-Hear more about my journey creating this portfolio at my [blog](https://elizabetholsavsky.hashnode.dev/hello-world). Don't forget to check out my other accounts (links provided). 
+Hear more about my journey creating this portfolio at my [blog](https://elizabetholsavsky.hashnode.dev/first-react-portfolio). Don't forget to check out my other accounts ([links provided](#contact)). 
 
 ![elizabetholsavsky com](https://github.com/elizabetholsavsky/portfolio/assets/116515976/3795d8a7-9680-4b1a-a150-24df32630091)
 
@@ -49,6 +49,10 @@ Hear more about my journey creating this portfolio at my [blog](https://elizabet
      * [GitHub](https://github.com/reactjs/react-modal)
 
   * [cubic-bezier](https://cubic-bezier.com/#.17,.67,.83,.67)
+    
+  * [Sqoosh (image compression web app)](https://squoosh.app/)
+    
+  * [Transfonter (web font generator)](https://transfonter.org/)
 
   ### Tutorials
 
@@ -56,7 +60,7 @@ Hear more about my journey creating this portfolio at my [blog](https://elizabet
 
   * [Learn React 18 with Redux Toolkit – Full Tutorial for Beginners](https://www.youtube.com/watch?v=2-crBg6wpp0&t=1) by [John Smilga](https://github.com/john-smilga) & [Free Code Camp](https://github.com/freeCodeCamp)
 
-  * [Portfolio Pure CSS Scroll Snapping Tutorial](https://www.youtube.com/watch?v=pNPkVQD7vlM&t=1s) by [Filip Grebowski](https://github.com/FilipGrebowski)
+  * [[Portfolio Pure CSS Scroll Snapping Tutorial](https://www.youtube.com/watch?v=UWwNIMHFdW4)](https://www.youtube.com/watch?v=pNPkVQD7vlM&t=1s) by [Filip Grebowski](https://github.com/FilipGrebowski)
 
   * [JavaScript - How to Create a Responsive Hamburger Menu with HTML, CSS, & JavaScript](https://www.youtube.com/watch?v=flItyHiDm7E) by [Miguel Z. Nunez](https://github.com/miguelznunez)
 
@@ -72,6 +76,10 @@ Hear more about my journey creating this portfolio at my [blog](https://elizabet
     * **"When I break down the big problem into a bunch of smaller problems, the whole thing becomes manageable."**
 
   * [Setup a Custom Domain in Netlify in 5 Minutes](https://www.youtube.com/watch?v=bY7Tkh9Vz8I) by James Q Quick
+
+  * [How To Optimize Images with Squoosh.app](https://www.youtube.com/watch?v=0XHQ4Z57BXI) by Steven Monson
+  
+  * [Self-hosting fonts explained (including Google fonts) // @font-face tutorial](https://www.youtube.com/watch?v=zK-yy6C2Nck&list=PLIrAIaNuo8lXKDFZS2AgqrO8Wk8jw5x9i&index=2) by Kevin Powell 
 
 ## Contact
 * Email elizabetholsavsky@gmail.com
