@@ -17,7 +17,11 @@ I want to hear from you! Send me a message via the contact or form or email me a
 
 Hear more about my journey creating this portfolio at my [blog](https://elizabetholsavsky.hashnode.dev/first-react-portfolio). Don't forget to check out my other accounts ([links provided](#contact)). 
 
+<div align="center">
+
 ![elizabetholsavsky com](https://github.com/elizabetholsavsky/portfolio/assets/116515976/3795d8a7-9680-4b1a-a150-24df32630091)
+
+</div>
 
 ## Table of Contents
 
