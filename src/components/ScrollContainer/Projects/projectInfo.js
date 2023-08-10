@@ -1,12 +1,10 @@
 import scriptlySpeakingAvif from '../images/project-img/avif/scriptly-speaking.avif';
 import weatherDashboardAvif from '../images/project-img/avif/weather-dashboard.avif';
 import fusionFablesAvif from '../images/project-img/avif/fusion-fables.avif';
-import schedaddyAvif from '../images/project-img/avif/schedaddy.avif';
 
 import scriptlySpeakingImg from '../images/project-img/img/scriptly-speaking.png';
 import weatherDashboardImg from '../images/project-img/img/weather-dashboard.png';
 import fusionFablesImg from '../images/project-img/img/fusion-fables.png';
-import schedaddyImg from '../images/project-img/img/schedaddy.png';
 
 export const projectInfo = [
     {
