@@ -49,18 +49,4 @@ export const projectInfo = [
         avif: fusionFablesAvif,
         img: fusionFablesImg,
     },
-    {
-        id: 4,
-        title:"Schedaddy Team Project",
-        url:"https://schedaddy-0dffdc6ab2cd.herokuapp.com/",
-        description: "Schedaddy is a Customer relationship management (CRM) platform with the intent to streamline your scheduling for your company. Schedaddy offers the ability to manage employees, roles, and schedules with the greatest of ease.",
-        demo_username: "demo@mail.com",
-        demo_password: "Password123!",
-        tags: ["Node", "Express", "React", "MongoDB", "Mongoose", "GraphQL", "Bootstrap", "Bcrypt", "JSON Web Tokens", "Faker-js"],
-        deployLink:"https://schedaddy-0dffdc6ab2cd.herokuapp.com/",
-        githubLink:"https://github.com/cmcnamara15/Schedaddy",
-        vscodeLink:"https://vscode.dev/github/cmcnamara15/Schedaddy",
-        avif: schedaddyAvif,
-        img: schedaddyImg,
-    },
 ];
