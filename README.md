@@ -89,6 +89,6 @@ Hear more about my journey creating this portfolio at my [blog](https://blog.eli
 * Email elizabetholsavsky@gmail.com
 * LinkedIn [https://www.linkedin.com/in/elizabetholsavsky/](https://www.linkedin.com/in/elizabetholsavsky/)
 * Portfolio [https://elizabetholsavsky.com/](https://elizabetholsavsky.com/)
-* Hashnode [https://blog.elizabetholsavsky.com/](https://blog.elizabetholsavsky.com/)
+* Hashnode Blog [https://blog.elizabetholsavsky.com/](https://blog.elizabetholsavsky.com/)
 * Twitter [@elizavsky](https://twitter.com/home)
 
