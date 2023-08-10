@@ -15,7 +15,7 @@ Learn more about me, see my latest projects, and download my resume with work an
 
 I want to hear from you! Send me a message via the contact or form or email me at elizabetholsavsky@gmail.com. 
 
-Hear more about my journey creating this portfolio at my [blog](https://elizabetholsavsky.hashnode.dev/first-react-portfolio). Don't forget to check out my other accounts ([links provided](#contact)). 
+Hear more about my journey creating this portfolio at my [blog](https://blog.elizabetholsavsky.com/first-react-portfolio). Don't forget to check out my other accounts ([links provided](#contact)). 
 
 <div align="center">
 
@@ -89,6 +89,6 @@ Hear more about my journey creating this portfolio at my [blog](https://elizabet
 * Email elizabetholsavsky@gmail.com
 * LinkedIn [https://www.linkedin.com/in/elizabetholsavsky/](https://www.linkedin.com/in/elizabetholsavsky/)
 * Portfolio [https://elizabetholsavsky.com/](https://elizabetholsavsky.com/)
-* Hashnode [https://elizabetholsavsky.hashnode.dev/](https://elizabetholsavsky.hashnode.dev/)
+* Hashnode [https://blog.elizabetholsavsky.com/](https://blog.elizabetholsavsky.com/)
 * Twitter [@elizavsky](https://twitter.com/home)
 
