@@ -61,6 +61,10 @@
     display: none;
 }
 
+.about-text-container-mobile p {
+    margin-top: 10px;
+}
+
 @media (max-width: 1125px) {
     .about-text-container {
         display: none;
