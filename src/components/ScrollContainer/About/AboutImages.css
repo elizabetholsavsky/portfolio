@@ -25,7 +25,7 @@
 }
 
 .little-card:nth-child(1) {
-    background-image: url(../images/about-img/img/skate-bowl.jpg);
+    background-image: url(../images/about-img/avif/skate-bowl.avif);
     aspect-ratio: 1 / 1;
     background-size: cover; 
     background-repeat: no-repeat; 
